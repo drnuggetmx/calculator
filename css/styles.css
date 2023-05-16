@@ -1,0 +1,1649 @@
+/* styles.css 
+   Project: LA Times - Weed calculator (Stefani Urmas, Alejandra Ramos, Kristine De Leon)
+   Author: Stefani Urmas, Kristine de Leon, Alejandra Ramos
+   Date: 04/11/2018
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html {
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    background-color: #f4f4f4;
+}
+
+body {
+    width: 65%;
+    margin: auto;
+    background-color: white;
+}
+
+.benton-semibold {
+    font-family: 'Benton Gothic SemiBold', Arial, serif;
+}
+
+.benton-bold {
+    font-family: 'Benton Gothic Bold', Arial, serif;
+}
+
+header {
+    padding: 1px 40px 0px 40px;
+}
+
+h1 {
+    line-height: 1.2em;
+}
+
+.byline {
+    padding-top: 15px;
+}
+
+header.mobile-force-center.center p.byline {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.text-section, .graphics-section {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0px 10%;
+    margin: 0px;
+}
+
+#hero-image {
+    width: 100%;
+    height: 400px;
+    background-color: #ddd;
+    margin: 30px auto;
+}
+
+.dropcap {
+    line-height: 1em;
+}
+
+h3.subheadline {
+    font-family: 'Belizio Narrow SemiBold', Georgia, serif;
+    color: #FF5443;
+}
+
+h5.question {
+    position: relative;
+    font-size: 18px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    margin: 30px 0px 14px 0px;
+    font-family: 'Benton Gothic Bold', Arial, serif;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+/* Interactive 1: smokes */
+
+.input-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.myInput {
+    background-image: url(../img/search.svg);
+    position: relative;
+    background-position: 12px 13px;
+    background-repeat: no-repeat;
+    width: 75%;
+    height: 48px;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+    font-size: 16px;
+    padding: 12px 20px 12px 48px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    color: #999;
+    float: left;
+    border-radius: 0px;
+}
+
+::placeholder {
+    opacity: 1;
+}
+
+button.cancel{
+    position: relative;
+    width: 25%;
+    height: 48px;
+    border: none;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+    font-size: 17px;
+    padding: 0px;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+}
+
+.myUL {
+    position: relative;
+    list-style-type: none;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.myUL li p {
+    height: 48px;
+    border: 1px solid #ddd;
+    margin: -1px 0px 0px 0px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px 12px 12px 15px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+    font-size: 15px;
+}
+
+.myUL li p:hover:not(.header) {
+  background-color: #eee;
+}
+
+.strain {
+    float: right;
+    color: #666;
+}
+
+button#calculate{
+    position: relative;
+    width: auto;
+    height: 48px;
+    border-radius: 8px;
+    margin: 30px auto;
+    padding: 0px 20px;
+    border: none;
+    font-size: 17px;
+    background-color: #ddd;
+    color: #888;
+}
+
+/* SMOKES SLIDER */
+
+.slidecontainer {
+    position: relative;
+    display: block;
+    width: 100%; /* Width of the outside container */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+    font-size: 1em;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 15px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #FF5443;
+    cursor: pointer;
+    border: 0px solid white;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.4);
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 0px solid white;
+    background: #FF5443;
+    cursor: pointer;
+}
+
+#smokes-slider {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: block;
+}
+
+#weed-amount {
+    position: relative;
+    width: 32px;
+    height: 50px;
+    float: left;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#grams {
+    position: relative;
+    width: auto;
+    height: 50px;
+    padding-right: 12px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#smokes-input-container {
+    position: relative;
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#smokes-range {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+}
+
+.input-ticks-container {
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.smokes-input-ticks {
+    width: 10%;
+    border-right: 1px solid #d3d3d3;
+    height: 10px;
+    margin-top: -1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.smokes-input-ticks:first-child {
+    border-left: 1px solid #d3d3d3;
+}
+/* end of smokes slider */
+
+
+/* WEED INFO BOX */
+
+.weed-info {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+}
+
+.weed-info-name {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background-color: white;
+    font-family: 'Benton Gothic Bold', Arial, serif;
+}
+
+.weed-info-strain {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.weed-info-strain span{
+    float: right;
+}
+
+.weed-info-thc {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 10px;
+    background-color: white;
+}
+
+.weed-info-thc span{
+    float: right;
+}
+
+.weed-info-cbd {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.weed-info-cbd span{
+    float: right;
+}
+
+.thc-strength,
+.cbd-strength {
+    margin-left: 6px;
+}
+
+
+/* THC GRAPH - SMOKES */
+
+.infographic-container {
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+}
+
+#intake-legend {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+}
+
+#intake-legend span {
+    display: block;
+    width: auto;
+    height: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 1px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#intake-legend span#legend-max {
+    position: absolute;
+    display: block;
+    right: 0px;
+    height: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 1px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#legend-orange {
+    width: 13px;
+    height: 13px;
+    margin-right: 6px;
+    background: #FF5443; 
+}
+
+#legend-gray {
+    width: 13px;
+    height: 13px;
+    background: #ddd;
+    margin: 0px 6px 0px 20px;;
+}
+
+
+#intake-container {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    margin-bottom: 50px;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+}
+
+#intake-labels {
+    float: left;
+    width: 15%;
+    height: auto;
+    background-color: white;
+    color: white;
+}
+
+#intake-smoke-label {
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Benton Gothic Bold', Arial, serif;
+    font-size: 15px;
+}
+
+#intake-vape-label {
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Benton Gothic Bold', Arial, serif;
+    font-size: 15px;
+}
+
+#intake-bong-label {
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Benton Gothic Bold', Arial, serif;
+    font-size: 15px;
+}
+
+#intake-bars {
+    position: relative;
+    float: left;
+    width: 85%;
+    height: auto;
+    background-color: white;
+    border-left: 1px solid #ddd;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+    font-size: 0.9em;
+}
+
+#intake-grid {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.intake-grid-cell {
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid #ddd;
+}
+
+#intake-smoke-gray {
+    position: relative;
+    width: 100%;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: #ddd;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#intake-smoke-orange {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 50px;
+    background-color: #FF5443;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+#intake-vape-gray {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: #ddd;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#intake-vape-orange {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 50px;
+    background-color: #FF5443;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+#intake-bong-gray {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: #ddd;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#intake-bong-orange {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 50px;
+    background-color: #FF5443;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+#intake-scale-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+}
+
+#intake-scale-numb1 {
+    width: 15%;
+    height: 30px;
+    float: left;
+    font-size: 11px;
+    text-align: right;
+}
+
+#intake-scale {
+    width: 85%;
+    height: auto;
+    float: left;
+}
+
+/* DOSAGE GRAPH */
+
+.dosage-legend {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+}
+
+.dosage-legend-edibles {
+    margin-bottom: 35px;
+}
+
+.dosage-legend span {
+    display: block;
+    width: auto;
+    height: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 1px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.dosage-legend-lightblue {
+    width: 13px;
+    height: 13px;
+    margin-right: 6px;
+    background: #A2C8DC; 
+}
+
+.dosage-legend-blue {
+    width: 13px;
+    height: 13px;
+    background: #4591B8;
+    margin: 0px 6px 0px 20px;;
+}
+
+.dosage-legend-orange {
+    width: 13px;
+    height: 13px;
+    background: #FF5443;
+    margin: 0px 6px 0px 20px;;
+}
+
+.dosage-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+}
+
+.fade-mask {
+    position: absolute;
+    top: 0px;
+    right: -110px;
+    width: 120px;
+    height: 400px;
+    background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
+}
+
+.dosage-labels {
+    float: left;
+    width: 20%;
+    height: auto;
+    background-color: white;
+    color: white;
+}
+
+.dosage-label {
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Benton Gothic Bold', Arial, serif;
+    font-size: 15px;
+    line-height: 15px
+}
+
+.dosage-label span{
+    font-family: 'Benton Gothic Regular', Arial, serif;
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.dosage-bars {
+    position: relative;
+    float: left;
+    width: 80%;
+    height: auto;
+    border-left: 1px solid #ddd;
+}
+
+.dosage-grid {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.dosage-grid-cell {
+    width: 10%;
+    height: 100%;
+    border-right: 1px solid #ddd;
+    
+}
+
+.dosage-beginner-orange {
+    position: relative;
+    width: 100%;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: #FF5443;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.dosage-beginner-blue {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5%;
+    height: 50px;
+    background-color: #4591B8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.dosage-beginner-lightblue {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0;
+    height: 50px;
+    background-color: #A2C8DC;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.dosage-someexp-orange {
+    position: relative;
+    width: 100%;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: #FF5443;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.dosage-someexp-blue {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 10%;
+    height: 50px;
+    background-color: #4591B8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.dosage-someexp-lightblue {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5%;
+    height: 50px;
+    background-color: #A2C8DC;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.dosage-exp-orange {
+    position: relative;
+    width: 100%;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: #FF5443;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.dosage-exp-blue {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 25%;
+    height: 50px;
+    background-color: #4591B8;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.dosage-exp-lightblue {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 10%;
+    height: 50px;
+    background-color: #A2C8DC;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.dosage-moreexp-orange {
+    position: relative;
+    width: 100%;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: #FF5443;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.dosage-moreexp-blue {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80%;
+    height: 50px;
+    background-color: #4591B8;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.dosage-moreexp-lightblue {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 25%;
+    height: 50px;
+    background-color: #A2C8DC;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+#dosage-amount-smoke {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 106.7%;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-size: 12px;
+    line-height: 8px;
+    margin-top: -40px;
+}
+
+#dosage-amount-smoke span {
+    display: inline-block;
+    padding: 4px 3px 5px 3px;
+    color: white;
+    background-color: black;
+}
+
+#dosage-amount-bong {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-size: 12px;
+    line-height: 8px;
+    margin-top: -20px
+}
+
+#dosage-amount-bong span {
+    display: inline-block;
+    padding: 4px 3px 5px 3px;
+    color: white;
+    background-color: black;
+}
+
+#dosage-amount-vape {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 93.3%;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-size: 12px;
+    line-height: 8px;
+    margin-top: -0px
+}
+
+#dosage-amount-vape span {
+    display: inline-block;
+    padding: 4px 3px 5px 3px;
+    color: white;
+    background-color: black;
+}
+
+.dosage-scale-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+}
+
+.dosage-scale-numb1 {
+    width: 20%;
+    height: 30px;
+    float: left;
+    font-size: 11px;
+    text-align: right;
+}
+
+.dosage-scale {
+    width: 80%;
+    height: auto;
+    float: left;
+}
+
+.dosage-scale-number {
+    width: 10%;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+    font-size: 11px;
+    text-align: right;
+    margin-right: 0px;
+}
+
+
+/* DOSAGE EFFECT GRAPH */
+
+h5.effect-graph {
+    font-family: 'Benton Gothic Bold', Arial, serif;
+    font-size: 1em;
+    margin: 30px 0px 5px 0px;
+    padding: 0px;
+}
+
+h6.effect-graph {
+    font-family: 'Benton Gothic Regular', Arial, serif;
+    font-size: 0.8em;
+    margin: 10px 0px 15px 0px;
+    padding: 0px;
+}
+
+#effect-graph-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 65px;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+}
+
+#effect-graph img {
+    width: 100%;
+    height: auto;
+}
+
+#effect-graph-xaxis {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticks {
+    width: 20%;
+    height: 5px;
+    text-align: right;
+    font-size: 0.8em;
+}
+
+.ticks span {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#effect-graph-xlabel {
+    background-color: yellowgreen; 
+    width: 100%;
+    height: 20px;
+}
+
+#effect-legend {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+}
+
+#effect-legend span {
+    display: block;
+    width: auto;
+    height: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 1px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#effect-legend span#effect-max {
+    position: absolute;
+    display: block;
+    right: 0px;
+    height: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 1px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#effect-orange {
+    width: 13px;
+    height: 13px;
+    margin-right: 6px;
+    background: #FF5443; 
+}
+
+#legend-blue {
+    width: 13px;
+    height: 13px;
+    background: #4591B8;
+    margin: 0px 6px 0px 20px;;
+}
+
+.caption {
+    width: 100%;
+    height: auto;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 0px;
+    padding: 0px;
+    color: #999;
+}
+
+
+/* THC GRAPH - EDIBLES */
+
+#edibles-portions-sum {
+    width: 100%;
+    height: auto;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+    font-size: 16px;
+    margin: 20px 0px;
+    padding: 0px;
+}
+        
+#edibles-portions-intake {
+    width: 100%;
+    height: auto;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+    font-size: 16px;
+    padding: 0px 0px 20px 0px;
+}
+
+#edibles-portions-sum span {
+    font-family: 'Benton Gothic Bold', Arial, serif;
+}
+
+#edibles-portions-intake span {
+    font-family: 'Benton Gothic Bold', Arial, serif;
+}
+
+
+/* EDIBLES INTAKE GRAPH */
+
+#edibles-intake-container {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    margin-bottom: 50px;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+}
+
+.edibles-number {
+    width: 40px;
+}
+
+.edibles-value {
+    width: 90px;
+}
+
+#edibles-intake-labels {
+    float: left;
+    width: 14%;
+    height: auto;
+    background-color: white;
+    color: white;
+}
+
+#edibles-label {
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Benton Gothic Bold', Arial, serif;
+    font-size: 15px;
+}
+
+#edibles-intake-bars {
+    position: relative;
+    float: left;
+    width: 86%;
+    height: auto;
+    background-color: white;
+    border-left: 1px solid #ddd;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+    font-size: 0.9em;
+}
+
+#edibles-intake-grid {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.edibles-intake-grid-cell {
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid #ddd;
+}
+
+#edibles-intake-gray {
+    position: relative;
+    width: 100%;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: #ddd;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#edibles-intake-orange {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 50px;
+    background-color: #FF5443;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+#edibles-scale-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+}
+
+#edibles-scale-numb1 {
+    width: 14%;
+    height: 30px;
+    float: left;
+    font-size: 11px;
+    text-align: right;
+}
+
+#edibles-intake-scale {
+    width: 86%;
+    height: auto;
+    float: left;
+}
+
+.intake-scale-number {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+    font-size: 11px;
+    text-align: right;
+    margin-right: 0px;
+}
+
+#dosage-amount-edibles {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 101.6%;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-size: 12px;
+    line-height: 8px;
+    margin-top: -25px;
+}
+
+#dosage-amount-edibles span {
+    display: inline-block;
+    padding: 4px 3px 5px 3px;
+    color: white;
+    background-color: black;
+    white-space: pre
+}
+
+#intake-legend span#edibles-legend-max {
+    position: absolute;
+    display: block;
+    right: 0px;
+    height: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 1px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#edible-infographic-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+/* slider for edibles */
+#edibles-slider {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#edibles-amount {
+    position: relative;
+    width: 32px;
+    height: 50px;
+    float: left;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#edibles-value-grams {
+    position: relative;
+    width: auto;
+    height: 50px;
+    padding-right: 12px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#input-container {
+    position: relative;
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#amount-range {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+}
+
+.input-ticks-container {
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.input-ticks {
+    width: 25%;
+    border-right: 1px solid #d3d3d3;
+    height: 10px;
+    margin-top: -1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.input-ticks:first-child {
+    border-left: 1px solid #d3d3d3;
+}
+/* end of edibles slider */
+
+.edibles-specs {
+    float: right;
+    color: #999;
+}
+
+p.side-note {
+    height: 13px;
+    padding-top: 1px;
+    font-family: 'Benton Gothic Regular', Arial, serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding: 0px 0px 15px 0px;
+    margin: 10px 0px 15px 0px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1024px) {
+    
+    body {
+        width: 75%;
+    }
+    
+    #intake-labels {
+        width: 14%;
+    }
+    
+    #intake-bars {
+        width: 86%;
+    }
+    
+    .dosage-labels {
+        width: 23%;
+    }
+    
+    .dosage-bars {
+        width: 77%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    html {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        background-color: white;
+    }
+
+    body {
+        width: 100%;
+        margin: auto;
+        background-color: white;
+    }
+
+    #intake-labels {
+        width: 16%;
+    }
+    
+    #intake-bars {
+        width: 84%;
+    }
+    
+    .dosage-labels {
+        width: 23%;
+    }
+    
+    .dosage-bars {
+        width: 77%;
+    }
+    
+    #intake-scale-numb1 {
+        width: 16%;
+    }
+
+    #intake-scale {
+        width: 84%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    
+    html {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        background-color: white;
+    }
+
+    body {
+        width: 100%;
+        margin: auto;
+        background-color: white;
+    }
+
+    header {
+        padding: 1px 10px 0px 10px;
+    }
+    
+    header.mobile-force-center.center h1 {
+    max-width: 95%;
+    }
+    
+    header.mobile-force-center.center p.description {
+    margin: 0px 10px;
+    }
+    
+    #hero-image {
+    margin-bottom: 0px;
+    }
+
+    .text-section, .graphics-section {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 0px 16px;
+        margin: 0px;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 1.618em;
+        margin: 15px 0px;
+    }
+    
+    .dropcap {
+        font-size: 55px;
+        line-height: 1.17em;
+        margin-right: .1em;
+        margin-bottom: -0.20em;
+    }
+    
+    h3 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    h5.question {
+        letter-spacing: -0.5px;
+    }
+    
+    .slider::-webkit-slider-thumb {
+        width: 34px;
+        height: 34px;
+        border: 0px solid white;
+    }
+
+    .slider::-moz-range-thumb {
+        width: 34px;
+        height: 34px;
+        border: 0px solid white;
+    }
+    
+    #intake-labels {
+        width: 19%;
+        letter-spacing: -0.4px;
+    }
+    
+    #intake-bars {
+        width: 81%;
+    }
+    
+    .dosage-labels {
+        width: 25%;
+        letter-spacing: -0.2px;
+    }
+    
+    .dosage-bars {
+        width: 75%;
+    }
+    
+    #intake-scale-numb1 {
+        width: 19%;
+    }
+
+    #intake-scale {
+        width: 81%;
+    }
+    
+}
+
+
