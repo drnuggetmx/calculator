@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>How high will your weed get you?</title>
+    
+	<!-- LA Times CSS stylesheets -->
+	<link rel="stylesheet" type="text/css" href="//d1qqc1e9kvmdh8.cloudfront.net/css/ngux-tophat-1.2.3.min.css" />
+	<link rel="stylesheet" type="text/css" href="//d1qqc1e9kvmdh8.cloudfront.net/bootstrap/2.3.2/css/bootstrap-responsive.min.css" />
+	<link rel="stylesheet" type="text/css" href="//d1qqc1e9kvmdh8.cloudfront.net/css/ngux-tophat-responsive-1.2.3.min.css" />
+    <!-- Project CSS stylesheets -->
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+    
+<body class="mobile-force-center">
+    <!-- The first interactive section starts -->
+    <section class="graphics-section">
+
+        <!-- THC calculator -->
+        <h3 class="subheadline">Smoke calculator</h3>
+        <p class="byline">
+            By <span class="author"><a href="">Alejandra Ramos, Kristine De Leon &amp; Stefani Urmas</a></span>
+        </p>
+
+            <p>Rough estimates based on the amount of THC of each strain and an estimate of the percentage intake according to the method of consumption.</p>
+
+        <h5 class="question">Find a cannabis product</h5>
+
+        <!-- dropdown -->
+        <div class="input-container" id="scrollTarget1">
+            <input type="text" id="myInput" class="myInput" onkeyup="searchbarFilter()" placeholder="Search for weed names..." title="Type in a name">
+
+            <button id="cancel1" class="cancel">Cancel</button>
+
+            <ul id="myUL" class="myUL"></ul>
+        </div>
+
+        <!-- Weed info box -->
+        <div id="weed-info" class="weed-info"></div>
+
+        <div class="infographic-container">
+
+            <h5 id="weed-label" class="question">How much <span></span> will you use?</h5>
+            
+            <p class="side-note">The average <a href="https://www.sciencedirect.com/science/article/pii/S0376871616301508" target="_blank"><span class="benton-semibold">American joint</span></a> contains 0.3 grams weed</p>
+            
+            <!-- smokes slider -->
+
+            <div id="smokes-slider" class="slidecontainer">
+
+                <div id="weed-amount" class="edibles-number"></div>
+
+                <div id="grams" class="edibles-value">g</div>
+
+                <div id="smokes-input-container">
+
+                    <input type="range" min="0" max="3.5" step="0.1" value="0.3" class="slider" id="smokes-range" list="number" />
+
+                    <div class="input-ticks-container">
+                        <div class="smokes-input-ticks"></div>
+                        <div class="smokes-input-ticks"></div>
+                        <div class="smokes-input-ticks"></div>
+                        <div class="smokes-input-ticks"></div>
+                        <div class="smokes-input-ticks"></div>
+                        <div class="smokes-input-ticks"></div>
+                        <div class="smokes-input-ticks"></div>
+                        <div class="smokes-input-ticks"></div>
+                        <div class="smokes-input-ticks"></div>
+                        <div class="smokes-input-ticks"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- THC infographic -->
+            <h5 class="question">Estimated THC intake and loss</h5>
+
+            <!-- legend -->
+            <div id="intake-legend">
+                <div id="legend-orange"></div>
+                <span>Thc intake</span>
+                <div id="legend-gray"></div>
+                <span>Thc loss</span>
+                <span id="legend-max"></span>
+            </div>
+            
+            <!-- bars -->
+            <div id="intake-container">
+                <div id="intake-labels">
+                    <div id="intake-smoke-label">Joint</div>
+                    <div id="intake-bong-label">Bong</div>
+                    <div id="intake-vape-label">Vaporizer</div>
+                </div>
+
+                <div id="intake-bars">
+                    <div id="intake-grid">
+                        <div class="intake-grid-cell"></div>
+                        <div class="intake-grid-cell"></div>
+                        <div class="intake-grid-cell"></div>
+                        <div class="intake-grid-cell"></div>
+                        <div class="intake-grid-cell"></div>
+                    </div>
+
+                    <div id="intake-smoke-gray">
+                        <div id="intake-smoke-orange"></div>
+                    </div>
+
+                    <div id="intake-bong-gray">
+                        <div id="intake-bong-orange"></div>
+                    </div>
+                    
+                    <div id="intake-vape-gray">
+                        <div id="intake-vape-orange"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- x-axis ticks -->
+            <div id="intake-scale-container">
+                <div id="intake-scale-numb1">mg</div>
+                <div id="intake-scale">
+                    <div class="intake-scale-number" id="intake-scale-numb2"></div>
+                    <div class="intake-scale-number" id="intake-scale-numb3"></div>
+                    <div class="intake-scale-number" id="intake-scale-numb4"></div>
+                    <div class="intake-scale-number" id="intake-scale-numb5"></div>
+                    <div class="intake-scale-number" id="intake-scale-numb6"></div>
+                </div>
+            </div>
+            
+            <!-- caption -->
+            <div class="caption"><a href="https://pdfs.semanticscholar.org/630e/1a24e59bb3939db0361710e64bc8343f1d16.pdf" target="_blank"><span class="benton-semibold">Studies</span></a> suggest that 63 percent of the THC content of a joint is lost due burning; 60 percent is lost in the process when using a bong and <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jps.20574" target="_blank"><span class="benton-semibold">46 percent</span></a> when using a vaporizer. The milligrams displayed are an approximation of the intake, taking account the lost of THC caused by combustion and other factors. </div>
+
+            <!-- Dosage infographic -->
+            <h5 class="question">Potential THC dosage</h5>
+            <p>This is a basic introduction to THC and CBD levels, not a definitive guide to cannabis affects.</p>
+
+            <!-- legend -->
+            <div class="dosage-legend">
+                <div class="dosage-legend-lightblue"></div>
+                <span>Weak</span>
+                <div class="dosage-legend-blue"></div>
+                <span>Typical desired</span>
+                <div class="dosage-legend-orange"></div>
+                <span>Too strong</span>
+            </div>
+
+            <!-- bars -->
+            <div class="dosage-container">
+                <div class="dosage-labels">
+                    <div class="dosage-label">Beginner<span>Very low tolerance</span></div>
+                    <div class="dosage-label">Some experience<span>Low tolerance</span></div>
+                    <div class="dosage-label">Experienced<span>Medium tolerance</span></div>
+                    <div class="dosage-label">More experience<span>High tolerance</span></div>
+                </div>
+
+                <div class="dosage-bars">
+                    <div class="dosage-grid">
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                    </div>
+
+                    <div class="dosage-beginner-orange">
+                        <div class="dosage-beginner-blue"></div>
+                        <div class="dosage-beginner-lightblue"></div>
+                    </div>
+
+                    <div class="dosage-someexp-orange">
+                        <div class="dosage-someexp-blue"></div>
+                        <div class="dosage-someexp-lightblue"></div>
+                    </div>
+
+                    <div class="dosage-exp-orange">
+                        <div class="dosage-exp-blue"></div>
+                        <div class="dosage-exp-lightblue"></div>
+                    </div>
+
+                    <div class="dosage-moreexp-orange">
+                        <div class="dosage-moreexp-blue"></div>
+                        <div class="dosage-moreexp-lightblue"></div>
+                    </div>
+
+                    <div id="dosage-amount-smoke"><span>Joint</span></div>
+                    <div id="dosage-amount-bong"><span>Bong</span></div>
+                    <div id="dosage-amount-vape"><span>Vaporizer</span></div>
+                    
+                </div>
+                
+                <div>
+                    <div class="fade-mask"></div>
+                </div>
+                
+            </div>
+            <!-- x-axis -->
+            <div class="dosage-scale-container">
+                <div class="dosage-scale-numb1">THC, mg</div>
+                <div class="dosage-scale">
+                    <div class="dosage-scale-number">10</div>
+                    <div class="dosage-scale-number">20</div>
+                    <div class="dosage-scale-number">30</div>
+                    <div class="dosage-scale-number">40</div>
+                    <div class="dosage-scale-number">50</div>
+                    <div class="dosage-scale-number">60</div>
+                    <div class="dosage-scale-number">70</div>
+                    <div class="dosage-scale-number">80</div>
+                    <div class="dosage-scale-number">90</div>
+                    <div class="dosage-scale-number">100</div>
+                </div>
+            </div>
+            
+            <!-- caption -->
+            <div class="caption">Sources: Analytical 360, a cannabis analysis laboratory, and Kushy Cannabis dataset.</div>
+
+        </div>  
+    </section>
+    
+    <!-- Body text section starts -->
+    <section class="text-section">
+
+        <h5 class="question">Smoking vs. eating</h5>
+
+        <p>There is a big difference between inhaling and eating cannabis because the THC in edibles is metabolized by the liver. It can take from 30 minutes to 2 hours to start feeling the effects, which will be stronger and last longer when compared to smoking or vaping.</p>
+
+        <!-- Cannabis effect infographic -->
+        <h5 class="effect-graph question">Effect of smoked and eaten cannabis</h5>
+        <h6 class="effect-graph">Hours after consumption</h6>
+        <div id="effect-graph-container">
+            <img src="img/effect.svg" />
+            <div id="effect-graph-xaxis">
+                <div class="ticks"><span>h</span>1</div>
+                <div class="ticks">2</div>
+                <div class="ticks">3</div>
+                <div class="ticks">4</div>
+                <div class="ticks">5</div>
+            </div>
+
+            <div id="effect-legend">
+                <div id="legend-orange"></div>
+                <span>Smoked cannabis</span>
+                <div id="legend-blue"></div>
+                <span>Eaten cannabis</span>
+                <span id="legend-max"></span>
+            </div>
+        </div>
+        <!-- caption -->
+        <div class="caption">When smoking or using a vaporizer, psychotropics effects start within seconds. Eaten cannabis sets in after 30 to 90 minutes and its maximum is reached after 2 to 3 hours. Edibles have slow build and long effect.</div>
+
+        <!-- Text -->
+        <p>Edibles can be found in many forms, such as candies, gummies, chocolates, beverages. They can be homemade or prepared commercially for dispensaries.</p>
+        <p>By law, edibles are labeled with THC and CBD contents in milligrams, but it can be difficult to understand what&rsquo;s an appropriate amount to consume. While the typical suggested dosage for low tolerance users is 10 milligrams, new consumers should start with 5 milligrams, according to the Marijuana Policy Project.</p>
+        <p>Baking with cannabis can be much more dangerous than eating consumer edibles because home cooks are generally less consistent in the amount used and serving sizes.</p>
+
+    </section>
+    
+    <!-- The second interactive section starts -->
+    <section class="graphics-section">
+        
+        <h3 class="subheadline">Compare edible products</h3>
+        <p>THC concentrations often vary in similar products from different manufacturers. This is a basic introduction to THC levels, not a definitive guide.</p>
+        <p></p>
+        
+        <!-- Edible calculator -->
+        <div class="input-container" id="scrollTarget2">
+            <input type="text" id="myInput-edibles" class="myInput" min="0" onkeyup="searchbarFilter()" placeholder="Select a product" title="Type in a name">
+
+            <button id="cancel2" class="cancel">Cancel</button>
+
+            <ul id="myUL-edibles" class="myUL"></ul>
+        </div>
+
+        <!-- Weed info box -->
+        <div id="edibles-infographic-container">
+
+            <div id="edibles-selection-container">
+
+                <div id="edibles-info" class="weed-info"></div>
+
+                <h5 class="question">Serving size</h5>
+                
+                <!-- edibles slider -->
+
+                <div id="edibles-slider" class="slidecontainer">
+
+                    <div id="edibles-amount" class="edibles-number"></div>
+
+                    <div id="edibles-value-grams" class="edibles-value"></div>
+
+                    <div id="input-container">
+
+                        <input type="range" class="slider" id="amount-range" list="number" />
+
+                        <div class="input-ticks-container">
+                            <div class="input-ticks"></div>
+                            <div class="input-ticks"></div>
+                            <div class="input-ticks"></div>
+                            <div class="input-ticks"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Dosage infographic -->
+            <h5 class="question">Potential THC dosage</h5>
+            
+            <!-- legend -->
+            <div class="dosage-legend dosage-legend-edibles">
+                <div class="dosage-legend-lightblue"></div>
+                <span>Weak</span>
+                <div class="dosage-legend-blue"></div>
+                <span>Typical desired</span>
+                <div class="dosage-legend-orange"></div>
+                <span>Too strong</span>
+            </div>
+            <!-- bars -->
+            <div class="dosage-container">
+                <div class="dosage-labels">
+                    <div class="dosage-label">Beginner<span>Very low tolerance</span></div>
+                    <div class="dosage-label">Some experience<span>Low tolerance</span></div>
+                    <div class="dosage-label">Experienced<span>Medium tolerance</span></div>
+                    <div class="dosage-label">More experience<span>High tolerance</span></div>
+                </div>
+
+                <div class="dosage-bars">
+                    <div class="dosage-grid">
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                        <div class="dosage-grid-cell"></div>
+                    </div>
+
+                    <div class="dosage-beginner-orange">
+                        <div class="dosage-beginner-blue"></div>
+                        <div class="dosage-beginner-lightblue"></div>
+                    </div>
+
+                    <div class="dosage-someexp-orange">
+                        <div class="dosage-someexp-blue"></div>
+                        <div class="dosage-someexp-lightblue"></div>
+                    </div>
+
+                    <div class="dosage-exp-orange">
+                        <div class="dosage-exp-blue"></div>
+                        <div class="dosage-exp-lightblue"></div>
+                    </div>
+
+                    <div class="dosage-moreexp-orange">
+                        <div class="dosage-moreexp-blue"></div>
+                        <div class="dosage-moreexp-lightblue"></div>
+                    </div>
+
+                    <div id="dosage-amount-edibles"></div>
+
+                </div>  
+            </div>
+            <!-- x-axis ticks -->
+            <div class="dosage-scale-container">
+                <div class="dosage-scale-numb1">THC, mg</div>
+                <div class="dosage-scale">
+                    <div class="dosage-scale-number">10</div>
+                    <div class="dosage-scale-number">20</div>
+                    <div class="dosage-scale-number">30</div>
+                    <div class="dosage-scale-number">40</div>
+                    <div class="dosage-scale-number">50</div>
+                    <div class="dosage-scale-number">60</div>
+                    <div class="dosage-scale-number">70</div>
+                    <div class="dosage-scale-number">80</div>
+                    <div class="dosage-scale-number">90</div>
+                    <div class="dosage-scale-number">100</div>
+                </div>
+                
+                <div>
+                    <div class="fade-mask"></div>
+                </div>
+                
+            </div>
+            <!-- caption -->
+            <div class="caption">
+                <span class="benton-bold">Note:</span> Dosages are based on suggestions made by cannabis manufacturers and distributors such as GFarmaLabs, Goodship, VCCBrands and FlavRx.
+            </div>
+            <p><br></p>
+        </div>
+        
+    </section>
+
+
+	<!-- JAVASCRIPT -->
+      
+    <script src="js/jquery.js"></script>
+	<script src="js/jqueryui.js"></script>
+    <script src="data/weed.json"></script>
+    <script src="data/edibles.json"></script>
+	<script src="js/script.js"></script>
+
+  </body>
+</html>
