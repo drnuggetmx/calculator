@@ -1,4 +1,3 @@
-   
 /* script.js 
    Author: Stefani Urmas, Kristine de Leon, Alejandra Ramos
    Date: 04/11/2018
