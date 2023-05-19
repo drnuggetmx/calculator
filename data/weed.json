@@ -1,1629 +1,1425 @@
 ﻿
 var weed = [
-  
   {
     "name": "9 Pound Hammer",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.73",
-    "cbd": "0.17",
-    "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "Abusive OG",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "13.70",
-    "cbd": "0.04",
-    "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.04"
+  },
   {
     "name": "AC/DC",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "1.00",
-    "cbd": "20.00",
-    "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "20.00"
+  },
   {
     "name": "Ace of Spades",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "16.85",
-    "cbd": "0.13",
-    "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Afgoo",
     "strain": "Indica",
     "thc": "16.65",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Agent Orange",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.44",
-    "cbd": "0.17  ",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "AK-47",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.12",
-    "cbd": "0.07  ",
-    "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.07"
+  },
   {
     "name": "Albert Walker",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "23.39",
-    "cbd": "0.31",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.31"
+  },
   {
     "name": "Alien Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "13.29",
-    "cbd": "0.05",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.05"
+  },
   {
     "name": "Allen Wrench",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.79",
-    "cbd": "0.14",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.14"
+  },
+  {
+    "name": "Amnesia Haze",
+    "strain": "Hybrid",
+    "thc": "17.57",
+    "cbd": "0.01"
+  },
   {
     "name": "Animal Cookies",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.96",
-    "cbd": "0.11",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.11"
+  },
   {
     "name": "Aurora",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.52",
-    "cbd": "0.38",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.38"
+  },
   {
     "name": "Banana OG",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "23.05",
-    "cbd": "0.21",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.21"
+  },
   {
     "name": "Bay Dream",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.03",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Big Buddha Cheese",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.08",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Black Betty",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.84",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Black Cherry Soda",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "23.53",
-    "cbd": "0.25",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.25"
+  },
   {
     "name": "Black Diesel",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.10",
-    "cbd": "0.17",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "Black Jack",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.74",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Black Lime Reserve",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "11.85",
-    "cbd": "0.20",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.20"
+  },
   {
     "name": "Blackberry",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.14",
-    "cbd": "0.20",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.20"
+  },
   {
     "name": "Blackberry Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.12",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Blackberry Pie",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "13.57",
-    "cbd": "0.11",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.11"
+  },
   {
     "name": "Blood Wreck",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.81",
-    "cbd": "0.11",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.11"
+  },
   {
     "name": "Blue Blood",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.13",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Blue Cheese",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.97",
-    "cbd": "0.21",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.21"
+  },
   {
     "name": "Blue City Diesel",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "11.56",
-    "cbd": "0.30",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.30"
+  },
   {
     "name": "Blue Dream",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "10.76",
-    "cbd": "0.01",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.01"
+  },
   {
     "name": "Blue Haze",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.26",
-    "cbd": "0.23",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.23"
+  },
   {
     "name": "Blue Jack",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.87",
-    "cbd": "0.18",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.18"
+  },
   {
     "name": "Blue Magoo",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.26",
-    "cbd": "0.21",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.21"
+  },
   {
     "name": "Blue Ox",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.85",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Blue Rhino",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "16.32",
-    "cbd": "0.16",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.16"
+  },
   {
     "name": "Blueberry",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "16.57",
-    "cbd": "0.07",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.07"
+  },
   {
     "name": "Blueberry Kush",
     "strain": "Indica",
     "thc": "24.73",
-    "cbd": "0.20",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.20"
+  },
   {
     "name": "Blueberry Pie",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.34",
-    "cbd": "0.12",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.12"
+  },
   {
     "name": "Bruce Banner",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.72",
-    "cbd": "0.17",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "Bubba Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.80",
-    "cbd": "0.14",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.14"
+  },
   {
     "name": "Bubba Scout",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.36",
-    "cbd": "0.04",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.04"
+  },
   {
     "name": "Bubblicious",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "16.74",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Burmese Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "16.20",
-    "cbd": "0.05",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.05"
+  },
   {
     "name": "Cali Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "26.17",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Candyland",
     "strain": "Sativa",
     "thc": "6.70",
-    "cbd": "0.06",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.06"
+  },
   {
     "name": "Canna-Tsu",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "5.34",
-    "cbd": "12.68",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "12.68"
+  },
   {
     "name": "Casey Jones",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "9.91",
-    "cbd": "0.06",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.06"
+  },
   {
     "name": "Cheese",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "13.66",
-    "cbd": "0.06",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.06"
+  },
   {
     "name": "Chemdawg",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "22.54",
-    "cbd": "0.20",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.20"
+  },
   {
     "name": "Chernobyl",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "13.86",
-    "cbd": "0.02",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.02"
+  },
   {
     "name": "Cherry Kush",
     "strain": "Organi",
     "thc": "16.81",
-    "cbd": "0.19",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.19"
+  },
   {
     "name": "Cherry Pie",
     "strain": "Indica",
     "thc": "16.67",
-    "cbd": "0.05",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.05"
+  },
   {
     "name": "Chocolate",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.21",
-    "cbd": "0.26",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.26"
+  },
   {
     "name": "Chocolate Hashberry",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.05",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Chocolate Thai",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "15.49",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Chocolope",
     "strain": "Sativa",
     "thc": "20.75",
-    "cbd": "0.06",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.06"
+  },
   {
     "name": "Cinex",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.58",
-    "cbd": "0.10",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.10"
+  },
   {
     "name": "Citrus Sap",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "22.03",
-    "cbd": "0.12",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.12"
+  },
   {
     "name": "Clementine",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "27.40",
-    "cbd": "0.24",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.24"
+  },
   {
     "name": "Conquest",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "12.77",
-    "cbd": "0.14",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.14"
+  },
   {
     "name": "Cookies",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.74",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Cookies & Cream",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.00",
-    "cbd": "0.19",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.19"
+  },
   {
     "name": "Cornbread",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.92",
-    "cbd": "0.10",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.10"
+  },
   {
     "name": "Cotton Candy",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.73",
-    "cbd": "0.16",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.16"
+  },
   {
     "name": "Cotton Candy Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "15.52",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Critical Jack",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "23.71",
-    "cbd": "0.05",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.05"
+  },
   {
     "name": "Critical Kush",
     "strain": "Indica",
     "thc": "21.75",
-    "cbd": "0.46",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.46"
+  },
   {
     "name": "Critical Skunk",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "12.27",
-    "cbd": "0.01",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.01"
+  },
   {
     "name": "Dairy Queen",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "15.29",
-    "cbd": "0.16",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.16"
+  },
   {
     "name": "Dark Side of the Moon",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.76",
-    "cbd": "0.17",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "Deep Purple",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "14.90",
-    "cbd": "0.11",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.11"
+  },
   {
     "name": "Dirty Girl",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.13",
-    "cbd": "0.17",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "DJ Short Blueberry",
     "strain": "Indica",
     "thc": "20.23",
-    "cbd": "0.14",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.14"
+  },
   {
     "name": "Dog Walker",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.99",
-    "cbd": "0.23",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.23"
+  },
   {
     "name": "Double Dream",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.67",
-    "cbd": "0.14",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.14"
+  },
   {
     "name": "Double Purple",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.03",
-    "cbd": "0.16",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.16"
+  },
   {
     "name": "Double Purple Doja",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "13.40",
-    "cbd": "0.06",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.06"
+  },
   {
     "name": "Dr. Who",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.11",
-    "cbd": "0.19",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.19"
+  },
   {
     "name": "Dragon Lady",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "22.81",
-    "cbd": "0.35",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.35"
+  },
   {
     "name": "Durban",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.76",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Durban Poison",
     "strain": "Sativa",
     "thc": "18.89",
-    "cbd": "0.23",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.23"
+  },
   {
     "name": "Dutch Treat",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "22.05",
-    "cbd": "0.21",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.21"
+  },
   {
     "name": "East Coast Sour Diesel",
     "strain": "Sativa",
     "thc": "24.68",
-    "cbd": "0.20",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.20"
+  },
   {
     "name": "El Fuego",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.73",
-    "cbd": "0.08",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.08"
+  },
   {
     "name": "Epoxy OG",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "23.10",
-    "cbd": "0.21",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.21"
+  },
   {
     "name": "Fat Purple",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "11.92",
-    "cbd": "0.05",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.05"
+  },
   {
     "name": "Fire Alien Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "15.72",
-    "cbd": "0.10",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.10"
+  },
   {
     "name": "Florida Lemons",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "23.37",
-    "cbd": "0.26",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.26"
+  },
   {
     "name": "Flubber",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.07",
-    "cbd": "0.09",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.09"
+  },
   {
     "name": "Frankenberry",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "16.45",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Frankenstein",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.88",
-    "cbd": "0.01",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.01"
+  },
   {
     "name": "Freezeland",
     "strain": "Indica",
     "thc": "15.68",
-    "cbd": "0.17",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "Fruit Punch",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.31",
-    "cbd": "0.21",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.21"
+  },
   {
     "name": "Fruity Pebbles",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "24.75",
-    "cbd": "0.29",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.29"
+  },
   {
     "name": "Fruity Pebbles OG",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.97",
-    "cbd": "0.30",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.30"
+  },
   {
     "name": "Full Moon",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "16.72",
-    "cbd": "0.37",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.37"
+  },
   {
     "name": "G Force",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "14.77",
-    "cbd": "0.20",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.20"
+  },
   {
     "name": "Galactic Jack",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.38",
-    "cbd": "0.12",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.12"
+  },
   {
     "name": "GDP",
     "strain": "Indica",
     "thc": "22.53",
-    "cbd": "0.17",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "GG #4",
     "strain": "Indica",
     "thc": "20.16",
-    "cbd": "0.26",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.26"
+  },
   {
     "name": "Ghost",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "25.79",
-    "cbd": "0.26",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.26"
+  },
   {
     "name": "Girl Scout Cookies",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.23",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "God Bud",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "11.31",
-    "cbd": "6.86",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "6.86"
+  },
   {
     "name": "Godberry",
     "strain": "Indica",
     "thc": "16.18",
-    "cbd": "0.34",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.34"
+  },
   {
     "name": "Golden Goat",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "22.28",
-    "cbd": "0.17",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "Gorilla Glue",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "14.77",
-    "cbd": "0.16",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.16"
+  },
   {
     "name": "Gorilla Glue #4",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.63",
-    "cbd": "0.11",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.11"
+  },
+  {
+    "name": "Grandaddy Purple",
+    "strain": "Indica",
+    "thc": "15.77",
+    "cbd": "0.01"
+  },
   {
     "name": "Grape Ape",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "14.29",
-    "cbd": "0.21",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.21"
+  },
   {
     "name": "Grape OG",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "24.06",
-    "cbd": "0.18",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.18"
+  },
   {
     "name": "Grape Romulan",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "12.85",
-    "cbd": "0.09",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.09"
+  },
   {
     "name": "Great White Shark",
     "strain": "Sativa",
     "thc": "13.89",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Green Crack",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "13.42",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Harle Tsu",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "0.54",
-    "cbd": "9.79",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "9.79"
+  },
   {
     "name": "Harlequin",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "4.67",
-    "cbd": "6.64",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "6.64"
+  },
   {
     "name": "Hawaiian",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.80",
-    "cbd": "0.19",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.19"
+  },
   {
     "name": "Head Band",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "26.44",
-    "cbd": "0.08",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.08"
+  },
   {
     "name": "Headband",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.83",
-    "cbd": "0.09",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.09"
+  },
   {
     "name": "Heavy Duty Fruity",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.65",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Hindu Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.14",
-    "cbd": "0.16",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.16"
+  },
   {
     "name": "Holy Grail Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "25.42",
-    "cbd": "0.21",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.21"
+  },
   {
     "name": "Honey Boo Boo",
     "strain": "Indica",
     "thc": "15.22",
-    "cbd": "0.11",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.11"
+  },
   {
     "name": "Humboldt Honey",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.59",
-    "cbd": "0.18",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.18"
+  },
   {
     "name": "Jack",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "22.46",
-    "cbd": "0.07",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.07"
+  },
+  {
+    "name": "Jack Herer",
+    "strain": "Hybrid",
+    "thc": "18.14",
+    "cbd": "0.07"
+  },
   {
     "name": "Jack Skellington",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "15.14",
-    "cbd": "0.09",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.09"
+  },
   {
     "name": "Jack the Ripper",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.32",
-    "cbd": "0.17",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "Jackpot",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.41",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Jamaican Dream",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.41",
-    "cbd": "0.11",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.11"
+  },
   {
     "name": "Jilly Bean",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.63",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Juicy Fruit",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.62",
-    "cbd": "0.07",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.07"
+  },
   {
     "name": "Kimbo Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "16.49",
-    "cbd": "0.07",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.07"
+  },
   {
     "name": "King Kong",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.83",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Kosher Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "25.20",
-    "cbd": "0.10",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.10"
+  },
   {
     "name": "Kryptonite",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "7.81",
-    "cbd": "0.05",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.05"
+  },
   {
     "name": "Kush Dream",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.84",
-    "cbd": "0.17",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "LA Cheese",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.50",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Lavender",
     "strain": "Indica",
     "thc": "20.55",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Lavender OG",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "13.14",
-    "cbd": "0.12",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.12"
+  },
   {
     "name": "Lemon OG",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "23.28",
-    "cbd": "0.23",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.23"
+  },
   {
     "name": "Lemon Skunk",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "22.24",
-    "cbd": "0.14",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.14"
+  },
   {
     "name": "Locktite",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "22.27",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Lodi Dodi",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.70",
-    "cbd": "0.27",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.27"
+  },
   {
     "name": "Love Triangle",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "26.68",
-    "cbd": "0.32",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.32"
+  },
+  {
+    "name": "Mango",
+    "strain": "Hybrid",
+    "thc": "17.49",
+    "cbd": "0.52"
+  },
   {
     "name": "Mango Haze",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "16.55",
-    "cbd": "0.18",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.18"
+  },
   {
     "name": "Marionberry Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.07",
-    "cbd": "0.17",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "Master Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "14.87",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Matanuska Thunder Fuck",
     "strain": "Sativa",
     "thc": "14.88",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Maui Waui",
     "strain": "Sativa",
     "thc": "12.92",
-    "cbd": "0.33",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.33"
+  },
   {
     "name": "Mendo Breath",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.06",
-    "cbd": "0.12",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.12"
+  },
   {
     "name": "Mendocino",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "15.55",
-    "cbd": "0.01",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.01"
+  },
   {
     "name": "Mindscape",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.38",
-    "cbd": "0.05",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.05"
+  },
   {
     "name": "Mint Chocolate Chip",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "16.99",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Monster",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "24.38",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Northern Lights",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.41",
-    "cbd": "0.14",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.14"
+  },
   {
     "name": "Northern Lights #5",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.03",
-    "cbd": "0.18",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.18"
+  },
   {
     "name": "Nurse Jackie",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "23.41",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "NYPD",
     "strain": "Sativa",
     "thc": "13.23",
-    "cbd": "0.16",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.16"
+  },
   {
     "name": "Obama Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "15.03",
-    "cbd": "0.08",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.08"
+  },
   {
     "name": "OG Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.05",
-    "cbd": "0.10",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.10"
+  },
   {
     "name": "Ogre",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "8.35",
-    "cbd": "0.05",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.05"
+  },
   {
     "name": "Optimus Prime",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "13.21",
-    "cbd": "0.01",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.01"
+  },
   {
     "name": "Orange Dream",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.29",
-    "cbd": "0.10",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.10"
+  },
   {
     "name": "Orange Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.18",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Papaya",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "16.22",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Permafrost",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "15.77",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
+  {
+    "name": "Pineapple",
+    "strain": "Hybrid",
+    "thc": "24.26",
+    "cbd": "0.24"
+  },
   {
     "name": "Pineapple Chunk",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "13.73",
-    "cbd": "0.17",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "Pineapple Express",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.36",
-    "cbd": "0.18",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.18"
+  },
   {
     "name": "Pineapple Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.99",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Pink Lemonade",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.77",
-    "cbd": "0.21",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.21"
+  },
   {
     "name": "Platinum Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "16.57",
-    "cbd": "0.24",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.24"
+  },
   {
     "name": "Pre-98 Bubba Kush",
     "strain": "Indica",
     "thc": "20.89",
-    "cbd": "0.31",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.31"
+  },
   {
     "name": "Predator Pink",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.54",
-    "cbd": "0.19",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.19"
+  },
   {
     "name": "Purple Arrow",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "16.63",
-    "cbd": "0.10",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.10"
+  },
   {
     "name": "Purple Chemdawg",
     "strain": "Indica",
     "thc": "22.45",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Purple Elephant",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "8.51",
-    "cbd": "0.05",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.05"
+  },
   {
     "name": "Purple Glue",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "23.16",
-    "cbd": "0.16",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.16"
+  },
   {
     "name": "Purple Haze",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "15.10",
-    "cbd": "0.10",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.10"
+  },
   {
     "name": "Purple Jolly Rancher",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "14.45",
-    "cbd": "0.14",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.14"
+  },
   {
     "name": "Purple Nepal",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.02",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Purple OG Kush",
     "strain": "Indica",
     "thc": "22.68",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Purple Punch",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.88",
-    "cbd": "0.04",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.04"
+  },
   {
     "name": "Purple Urkle",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "4.17",
-    "cbd": "0.01",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.01"
+  },
   {
     "name": "Qrazy Train",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "26.65",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Querkle",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.89",
-    "cbd": "0.16",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.16"
+  },
   {
     "name": "Race Fuel",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.49",
-    "cbd": "0.19",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.19"
+  },
   {
     "name": "Remedy",
     "strain": "Indica",
     "thc": "0.87",
-    "cbd": "14.92",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "14.92"
+  },
   {
     "name": "Sapphire Star",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.90",
-    "cbd": "0.09",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.09"
+  },
   {
     "name": "Sensi Star",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.19",
-    "cbd": "0.24",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.24"
+  },
   {
     "name": "SFV OG Kush",
     "strain": "Indica",
     "thc": "13.35",
-    "cbd": "0.10",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.10"
+  },
   {
     "name": "Sherbert",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.80",
-    "cbd": "0.10",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.10"
+  },
   {
     "name": "Shiva Skunk",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.69",
-    "cbd": "0.17",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "Silvertip",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "22.58",
-    "cbd": "0.01",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.01"
+  },
   {
     "name": "Snow Leopard",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.38",
-    "cbd": "0.19",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.19"
+  },
   {
     "name": "Snow Monster",
     "strain": "Indica",
     "thc": "20.74",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Sour Blueberry",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.56",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Sour Diesel",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.89",
-    "cbd": "0.26",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.26"
+  },
   {
     "name": "Sour Kosher",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.63",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Sour Pez",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.13",
-    "cbd": "0.21",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.21"
+  },
   {
     "name": "Sour Tsunami",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "1.04",
-    "cbd": "11.77",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "11.77"
+  },
   {
     "name": "Space Candy",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.84",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Space Queen",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.92",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "Starfighter",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.90",
-    "cbd": "0.17",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.17"
+  },
   {
     "name": "Stephen Hawking Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "0.89",
-    "cbd": "13.65",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "13.65"
+  },
   {
     "name": "Stone Free",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "15.25",
-    "cbd": "0.08",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.08"
+  },
   {
     "name": "Strawberry Banana Kush",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.38",
-    "cbd": "0.14",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.14"
+  },
   {
     "name": "Strawberry Cough",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "10.47",
-    "cbd": "0.11",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.11"
+  },
   {
     "name": "Strawberry Diesel",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "12.33",
-    "cbd": "0.12",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.12"
+  },
   {
     "name": "Sugar Black Rose",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.38",
-    "cbd": "0.12",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.12"
+  },
   {
     "name": "Sugar Plum",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "9.32",
-    "cbd": "0.01",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.01"
+  },
   {
     "name": "Super Lemon Haze",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.08",
-    "cbd": "0.29",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.29"
+  },
   {
     "name": "Super Silver Haze",
     "strain": "Sativa",
     "thc": "19.50",
-    "cbd": "0.08",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.08"
+  },
   {
     "name": "Sweet Black Angel",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "14.64",
-    "cbd": "0.21",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.21"
+  },
   {
     "name": "Taffie",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.58",
-    "cbd": "0.03",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.03"
+  },
   {
     "name": "Tahoe OG",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "13.16",
-    "cbd": "0.04",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.04"
+  },
   {
     "name": "Tangerine",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.25",
-    "cbd": "0.19",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.19"
+  },
   {
     "name": "Tangerine Cookies",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "26.12",
-    "cbd": "0.08",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.08"
+  },
   {
     "name": "Tangerine Dream",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "15.77",
-    "cbd": "0.11",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.11"
+  },
   {
     "name": "Tangerine Power",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "19.17",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "Tangilope",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "14.36",
-    "cbd": "0.03",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.03"
+  },
   {
     "name": "The White",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "27.67",
-    "cbd": "0.23",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.23"
+  },
   {
     "name": "Thin Mint",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "20.79",
-    "cbd": "0.12",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.12"
+  },
   {
     "name": "Trainwreck",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "14.16",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Triangle Kush",
     "strain": "Indica",
     "thc": "18.66",
-    "cbd": "0.19",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.19"
+  },
   {
     "name": "Trinity",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.33",
-    "cbd": "0.12",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.12"
+  },
   {
     "name": "Tutankhamon",
     "strain": "Sativa",
     "thc": "16.71",
-    "cbd": "0.01",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.01"
+  },
   {
     "name": "UK Cheese",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "12.94",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Vietnamese Black",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "14.59",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "White Alien",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "15.05",
-    "cbd": "0.15",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.15"
+  },
   {
     "name": "White Rhino",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "17.14",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.13"
+  },
   {
     "name": "White Skunk",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "18.84",
-    "cbd": "0.19",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.19"
+  },
   {
     "name": "White Star",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "25.23",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "White Urkle",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "22.85",
-    "cbd": "0.09",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.09"
+  },
   {
     "name": "White Widow",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "23.88",
-    "cbd": "0.26",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.26"
+  },
   {
     "name": "XJ-13",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.01",
-    "cbd": "0.22",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }  
+    "cbd": "0.22"
+  },
   {
     "name": "Yeti OG",
-    "strain": "Híbrido",
+    "strain": "Hybrid",
     "thc": "21.19",
-    "cbd": "0.13",
-   "linktoSource": "https://www.drnugget.mx/consumo"
-  }
-   
+    "cbd": "0.13"
+  } 
 ];
