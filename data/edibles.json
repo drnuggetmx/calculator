@@ -80,36 +80,36 @@ var edibles = [
     "linktoSource": "https://vccbrands.com/4-20-bar/"
   },
   {
-    "product": "Milk Chocolate Bar",
-    "productSpecific": "1 chocolate bar",
+    "product": "Barra de Chocolate",
+    "productSpecific": "1 barra de chocolate",
     "servingSize": 43,
     "servingSizeUnits": "g",
     "americanServing": "1.5 oz (43 g)",
     "thcTotal": "200",
-    "unit": "milk chocolate bar",
+    "unit": "barra de chocolate",
     "maxValue": 1,
     "step": 0.1,
     "suggestedValue": 0.1,
-    "suggestedValueUnit": "bar",
-    "suggestedStartDosage": "0.25 g (1/2 of a segment)",
-    "suggestedDosage": "Consume only half of a serving",
-    "linktoSource": "https://vccbrands.com/product/milk-chocolate-4-20bar/"
+    "suggestedValueUnit": "barra",
+    "suggestedStartDosage": "0.25 g (1/2 de mg)",
+    "suggestedDosage": "Consumir sólo la mitad",
+    "linktoSource": "https://www.drnugget.mx/products/barra-de-chocolate-semi-amargo-by-mrs-celia/2292957000000720448"
   },
   {
-    "product": "Honey",
-    "productSpecific": "1 teaspoon",
+    "product": "Miel Cannábica",
+    "productSpecific": "1 cucharada",
     "servingSize": 7,
     "servingSizeUnits": "g",
     "americanServing": "0.2 oz (7 g)",
     "thcTotal": "8",
-    "unit": "teaspoon",
+    "unit": "cucharada",
     "maxValue": 10,
     "step": 1,
     "suggestedValue": 1,
-    "suggestedValueUnit": "teaspoon",
-    "suggestedStartDosage": "0.25 oz (1 teaspoon)",
-    "suggestedDosage": "1 teaspoon",
-    "linktoSource": "https://kushfly.com/wp-content/uploads/2017/04/Honey-pot-indica_edibles_Delivery_LosAngeles_California.jpg"
+    "suggestedValueUnit": "cucharada",
+    "suggestedStartDosage": "0.25 oz (1 cucharada)",
+    "suggestedDosage": "1 cucharada",
+    "linktoSource": "https://www.drnugget.mx/products/miel-cann%C3%A1bica-divinorum-boutique-herbal-200-ml-500-mg/2292957000001552053"
   },
   {
     "product": "Rainbow Belt Candy",
@@ -128,20 +128,20 @@ var edibles = [
     "linktoSource": "https://flavrx.com/flavnew/product/flavrx-rainbow-belts/?age-verified=02cb081b80"
   },
   {
-    "product": "Gummy Bears",
-    "productSpecific": "1 candy",
+    "product": "Gomitas Golosos",
+    "productSpecific": "1 unidad",
     "servingSize": 2.5,
     "servingSizeUnits": "g",
     "americanServing": "0.09 oz (2.5 g)",
     "thcTotal": "25",
-    "unit": "gummy bear",
+    "unit": "gomita",
     "maxValue": 4,
     "step": 0.5,
     "suggestedValue": 0.5,
-    "suggestedValueUnit": "candy",
-    "suggestedStartDosage": "1/2 gummy bear",
-    "suggestedDosage": "1/2 gummy bear",
-    "linktoSource": "https://flavrx.com/flavnew/product/flavrx-gummy-bears/"
+    "suggestedValueUnit": "gomita",
+    "suggestedStartDosage": "1/2 gomita",
+    "suggestedDosage": "1/2 gomita",
+    "linktoSource": "https://www.drnugget.mx/search-products?q=gomita"
   },
   {
     "product": "Olive oil",
