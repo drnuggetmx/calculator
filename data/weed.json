@@ -4,37 +4,43 @@ var weed = [
     "name": "Amnesia Haze (Disponible)",
     "strain": "Híbrido",
     "thc": "15.57",
-    "cbd": "0.01"
+    "cbd": "0.01",
+    "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
     "name": "Grandaddy Purple (Disponible)",
     "strain": "Indica",
     "thc": "17.77",
-    "cbd": "0.01"
+    "cbd": "0.01",
+    "linktoSource": "https://www.drnugget.mx/products/granddaddy-purple-greenhouse/2292957000008986298"
   },
   {
     "name": "Jack Herer (Disponible)",
     "strain": "Híbrido",
     "thc": "18.14",
-    "cbd": "0.07"
+    "cbd": "0.07",
+    "linktoSource": "https://www.drnugget.mx/products/jack-herer-greenhouse/2292957000008111530"
   },
   {
     "name": "Mango Kush (Disponible)",
     "strain": "Híbrido",
     "thc": "19.49",
-    "cbd": "0.52"
+    "cbd": "0.52",
+    "linktoSource": "https://www.drnugget.mx/products/mango-kush-greenhouse/2292957000008150120"
   },
   {
     "name": "Pineapple (Disponible)",
     "strain": "Híbrido",
     "thc": "24.26",
-    "cbd": "0.24"
+    "cbd": "0.24",
+    "linktoSource": "https://www.drnugget.mx/products/pineapple-greenhouse-exotic/2292957000008485077"
   },
   {
     "name": "San Francisco OG (Disponible)",
     "strain": "Híbrido",
     "thc": "26.17",
-    "cbd": "0.22"
+    "cbd": "0.22",
+    "linktoSource": "https://www.drnugget.mx/products/san-francisco-og-greenhouse-premium/2292957000008485005"
   },
   {
     "name": "9 Pound Hammer",

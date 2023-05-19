@@ -94,7 +94,7 @@ function smokesCalculator() {
     $("#calculate").css({"background-color":"#FF5443","color":"white","cursor":"pointer"});
 
     // creating the weed info table
-    $("#weed-info").html('</div><div class="weed-info-strain">Cepa<span>'+ weed[selectedWeed].strain +'</span></div><div class="weed-info-thc">THC<span>'+ parseInt(weed[selectedWeed].thc) +' % <span class="thc-strength"></span></span></div><div class="weed-info-cbd">CBD <span class="cbd-strength"></span><span>'+ weed[selectedWeed].cbd +' %</span></div>')
+    $("#weed-info").html('</div><div class="weed-info-strain">Cepa<span>'+ weed[selectedWeed].strain +'</span></div><div class="weed-info-thc">THC<span>'+ parseInt(weed[selectedWeed].thc) +' % <span class="thc-strength"></span></span></div><div class="weed-info-cbd">CBD <span class="cbd-strength"></span><span>'+ weed[selectedWeed].cbd +' %</span></div><div class="weed-info-cbd"><a href="'+ weed[selectedWeed].linktoSource +'">Leer más sobre el producto</a></div>')
     
     // checking how strong is the THC content
     if (weed[selectedWeed].thc < 10 ) {
@@ -223,8 +223,8 @@ function ediblesCalculator() {
 
 $(document).ready(function(){ 
     
-    // PRE-SELECTED SMOKES: selects the Blue Dream product, shows the info box, slider and graphs when the document is ready
-    selectedWeed = 28; // Blue Dream
+    // PRE-SELECTED SMOKES: selects the Amnesia Haze product, shows the info box, slider and graphs when the document is ready
+    selectedWeed = 1; // Amnesia Haze
     smokesCalculator();
     
     // PRE-SELECTED EDIBLES: selects the Cookie product, shows the info box, slider and graphs when the document is ready
