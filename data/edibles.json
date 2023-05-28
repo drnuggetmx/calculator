@@ -1,5 +1,22 @@
 var edibles = [
   {
+    "product": "Gomitas",
+    "productSpecific": "1 candy",
+    "servingSize": 2.5,
+    "servingSizeUnits": "g",
+    "americanServing": "0.09 oz (2.5 g)",
+    "thcTotal": "25",
+    "unit": "gummy bear",
+    "maxValue": 4,
+    "step": 0.5,
+    "suggestedValue": 0.5,
+    "suggestedValueUnit": "candy",
+    "suggestedStartDosage": "1/2 gummy bear",
+    "suggestedDosage": "1/2 gummy bear",
+    "linktoSource": "https://www.drnugget.mx/search-products?q=variado%20de%20comestibles"
+  },
+/*
+  {
     "product": "Galleta",
     "productSpecific": "1 galleta",
     "servingSize": 16,
@@ -15,6 +32,8 @@ var edibles = [
     "suggestedDosage": "Comience con la mitad de una galleta",
     "linktoSource": "https://www.drnugget.mx/search-products?q=galleta"
   },
+  
+
   {
     "product": "Green Tea",
     "productSpecific": "1 tea bag",
@@ -79,8 +98,10 @@ var edibles = [
     "suggestedDosage": "Start with a piece the size of a half-inch sugar cube",
     "linktoSource": "https://vccbrands.com/4-20-bar/"
   },
+
+  */
   {
-    "product": "Milk Chocolate Bar",
+    "product": "Barra de Chocolate",
     "productSpecific": "1 chocolate bar",
     "servingSize": 43,
     "servingSizeUnits": "g",
@@ -93,10 +114,10 @@ var edibles = [
     "suggestedValueUnit": "bar",
     "suggestedStartDosage": "0.25 g (1/2 of a segment)",
     "suggestedDosage": "Consume only half of a serving",
-    "linktoSource": "https://vccbrands.com/product/milk-chocolate-4-20bar/"
+    "linktoSource": "https://www.drnugget.mx/search-products?q=barra%20de%20chocolate"
   },
   {
-    "product": "Honey",
+    "product": "Miel Cannabica",
     "productSpecific": "1 teaspoon",
     "servingSize": 7,
     "servingSizeUnits": "g",
@@ -109,8 +130,10 @@ var edibles = [
     "suggestedValueUnit": "teaspoon",
     "suggestedStartDosage": "0.25 oz (1 teaspoon)",
     "suggestedDosage": "1 teaspoon",
-    "linktoSource": "https://kushfly.com/wp-content/uploads/2017/04/Honey-pot-indica_edibles_Delivery_LosAngeles_California.jpg"
+    "linktoSource": "https://www.drnugget.mx/search-products?q=miel%20cannabica"
   },
+
+  /*
   {
     "product": "Rainbow Belt Candy",
     "productSpecific": "1 belt",
@@ -127,22 +150,7 @@ var edibles = [
     "suggestedDosage": "1/2 belt",
     "linktoSource": "https://flavrx.com/flavnew/product/flavrx-rainbow-belts/?age-verified=02cb081b80"
   },
-  {
-    "product": "Gummy Bears",
-    "productSpecific": "1 candy",
-    "servingSize": 2.5,
-    "servingSizeUnits": "g",
-    "americanServing": "0.09 oz (2.5 g)",
-    "thcTotal": "25",
-    "unit": "gummy bear",
-    "maxValue": 4,
-    "step": 0.5,
-    "suggestedValue": 0.5,
-    "suggestedValueUnit": "candy",
-    "suggestedStartDosage": "1/2 gummy bear",
-    "suggestedDosage": "1/2 gummy bear",
-    "linktoSource": "https://flavrx.com/flavnew/product/flavrx-gummy-bears/"
-  },
+ 
   {
     "product": "Olive oil",
     "productSpecific": "1 teaspoon",
@@ -159,4 +167,5 @@ var edibles = [
     "suggestedDosage": "1/2 teaspoon",
     "linktoSource": "https://vccbrands.com/not-so-virgin-gourmet/"
   }
+  */
 ]
