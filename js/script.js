@@ -224,7 +224,7 @@ function ediblesCalculator() {
 $(document).ready(function(){ 
     
     // PRE-SELECTED SMOKES: selects the Blue Dream product, shows the info box, slider and graphs when the document is ready
-    selectedWeed = 10; // Amnesia Haze not Blue Dream
+    selectedWeed = 15; // Amnesia Haze not Blue Dream
     smokesCalculator();
     
     // PRE-SELECTED EDIBLES: selects the Cookie product, shows the info box, slider and graphs when the document is ready
