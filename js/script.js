@@ -201,7 +201,7 @@ function ediblesCalculator() {
     $("#calculate2").css({"background-color":"#FF5443","color":"white","cursor":"pointer"});
 
     // creating an info table for edibles
-    $("#edibles-info").html('</div><div class="weed-info-strain">Peso por '+ edibles[selectedEdible].productSpecific +'<span>'+ edibles[selectedEdible].americanServing +'</span></div><div class="weed-info-thc">THC<span>'+ edibles[selectedEdible].thcTotal +' mg</span></div><div class="weed-info-cbd"><a href="'+ edibles[selectedEdible].linktoSource +'">Leer más sobre el producto</a></div>') 
+    $("#edibles-info").html('</div><div class="weed-info-strain">Peso por '+ edibles[selectedEdible].productSpecific +'<span>'+ edibles[selectedEdible].americanServing +'</span></div><div class="weed-info-thc">THC<span>'+ edibles[selectedEdible].thcTotal +' mg</span></div><div class="weed-info-cbd"><a href="'+ edibles[selectedEdible].linktoSource +'" target="_blank">Leer más sobre el producto</a></div>') 
     
     $("#dosage-amount-edibles").html('<span>'+ edibles[selectedEdible].product +'</span>');
     
