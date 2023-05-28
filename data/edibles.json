@@ -1,18 +1,18 @@
 var edibles = [
   {
     "product": "Gomitas",
-    "productSpecific": "1 candy",
+    "productSpecific": "1 gomita",
     "servingSize": 2.5,
     "servingSizeUnits": "g",
     "americanServing": "0.09 oz (2.5 g)",
     "thcTotal": "25",
-    "unit": "gummy bear",
+    "unit": "gomita",
     "maxValue": 4,
     "step": 0.5,
     "suggestedValue": 0.5,
     "suggestedValueUnit": "candy",
-    "suggestedStartDosage": "1/2 gummy bear",
-    "suggestedDosage": "1/2 gummy bear",
+    "suggestedStartDosage": "1/2 gomita",
+    "suggestedDosage": "1/2 gomita",
     "linktoSource": "https://www.drnugget.mx/search-products?q=variado%20de%20comestibles"
   },
 /*
