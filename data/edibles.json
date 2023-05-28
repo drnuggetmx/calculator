@@ -13,7 +13,7 @@ var edibles = [
     "suggestedValueUnit": "galleta(s)",
     "suggestedStartDosage": "1/2 galleta",
     "suggestedDosage": "Comience con la mitad de una galleta",
-    "linktoSource": "https://www.drnugget.mx/search-products?q=gomita"
+    "linktoSource": "https://www.drnugget.mx/search-products?q=galleta"
   },
   {
     "product": "Green Tea",
