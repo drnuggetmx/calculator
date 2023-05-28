@@ -1,6 +1,36 @@
 ﻿
 var weed = [
   {
+    "name": "San Francisco OG (Disponible)",
+    "strain": "Sativa",
+    "thc": "25.5",
+    "cbd": "0.20"
+  },
+  {
+    "name": "Pineapple (Disponible)",
+    "strain": "Hibrida",
+    "thc": "24.26",
+    "cbd": "0.24"
+  },
+  {
+    "name": "Jack Herer (Disponible)",
+    "strain": "Hibrida",
+    "thc": "18.14",
+    "cbd": "0.07"
+  },
+  {
+    "name": "Mango Kush (Disponible)",
+    "strain": "Hibrida",
+    "thc": "17.49",
+    "cbd": "0.52"
+  },
+  {
+    "name": "Grandaddy Purple (Disponible)",
+    "strain": "Indica",
+    "thc": "15.77",
+    "cbd": "0.01"
+  },
+  {
     "name": "9 Pound Hammer",
     "strain": "Hibrida",
     "thc": "18.73",
@@ -61,7 +91,7 @@ var weed = [
     "cbd": "0.14"
   },
   {
-    "name": "Amnesia Haze",
+    "name": "Amnesia Haze (Disponible)",
     "strain": "Hibrida",
     "thc": "17.57",
     "cbd": "0.01"
@@ -636,12 +666,7 @@ var weed = [
     "thc": "20.63",
     "cbd": "0.11"
   },
-  {
-    "name": "Grandaddy Purple",
-    "strain": "Indica",
-    "thc": "15.77",
-    "cbd": "0.01"
-  },
+  
   {
     "name": "Grape Ape",
     "strain": "Hibrida",
@@ -727,6 +752,12 @@ var weed = [
     "cbd": "0.11"
   },
   {
+    "name": "Horchata Rosa",
+    "strain": "Indica",
+    "thc": "21.59",
+    "cbd": "0.18"
+  },
+  {
     "name": "Humboldt Honey",
     "strain": "Hibrida",
     "thc": "21.59",
@@ -738,12 +769,7 @@ var weed = [
     "thc": "22.46",
     "cbd": "0.07"
   },
-  {
-    "name": "Jack Herer",
-    "strain": "Hibrida",
-    "thc": "18.14",
-    "cbd": "0.07"
-  },
+ 
   {
     "name": "Jack Skellington",
     "strain": "Hibrida",
@@ -996,12 +1022,7 @@ var weed = [
     "thc": "15.77",
     "cbd": "0.15"
   },
-  {
-    "name": "Pineapple",
-    "strain": "Hibrida",
-    "thc": "24.26",
-    "cbd": "0.24"
-  },
+  
   {
     "name": "Pineapple Chunk",
     "strain": "Hibrida",
