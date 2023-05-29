@@ -94,7 +94,7 @@ function smokesCalculator() {
     $("#calculate").css({"background-color":"#FF5443","color":"white","cursor":"pointer"});
 
     // creating the weed info table
-    $("#weed-info").html('</div><div class="weed-info-strain">Cepa<span>'+ weed[selectedWeed].strain +'</span></div><div class="weed-info-thc">THC<span>'+ parseInt(weed[selectedWeed].thc) +' % <span class="thc-strength"></span></span></div><div class="weed-info-cbd">CBD <span class="cbd-strength"></span><span>'+ weed[selectedWeed].cbd +' %</span></div>')
+    $("#weed-info").html('</div><div class="weed-info-strain">Cepa<span>'+ weed[selectedWeed].strain +'</span></div><div class="weed-info-thc">THC<span>'+ parseInt(weed[selectedWeed].thc) +' % <span class="thc-strength"></span></span></div><div class="weed-info-cbd">CBD <span class="cbd-strength"></span><span>'+ weed[selectedWeed].cbd +' %</span></div><div class="weed-info-cbd"><a href="'+ weed[selectedWeed].linktoSource +'" target="_blank">Leer más sobre el producto</a></div>')
     
     // checking how strong is the THC content
     if (weed[selectedWeed].thc < 10 ) {
