@@ -8,11 +8,25 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/san-francisco-og-greenhouse-premium/2292957000008485005"
   },
   {
+    "name": "Bruce Banner (Disponible)",
+    "strain": "Hibrida",
+    "thc": "20.72",
+    "cbd": "0.17",
+    "linktoSource": "https://www.drnugget.mx/products/bruce-banner-greenhouse/2292957000009781025"
+  },
+  {
     "name": "Pineapple (Disponible)",
     "strain": "Hibrida",
     "thc": "24.26",
     "cbd": "0.24",
     "linktoSource": "https://www.drnugget.mx/products/pineapple-greenhouse-exotic/2292957000008485077"
+  },
+  {
+    "name": "Lemon Haze (Disponible)",
+    "strain": "Sativa",
+    "thc": "25.58",
+    "cbd": "0.29",
+    "linktoSource": "https://www.drnugget.mx/products/lemon-haze-greenhouse/2292957000009781182"
   },
   {
     "name": "Jack Herer (Disponible)",
@@ -292,13 +306,6 @@ var weed = [
     "strain": "Hibrida",
     "thc": "20.34",
     "cbd": "0.12",
-    "linktoSource": "https://www.drnugget.mx/consumo"
-  },
-  {
-    "name": "Bruce Banner",
-    "strain": "Hibrida",
-    "thc": "20.72",
-    "cbd": "0.17",
     "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
