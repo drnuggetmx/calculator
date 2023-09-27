@@ -1,11 +1,26 @@
 ﻿
 var weed = [
+  
   {
-    "name": "San Francisco OG (Disponible)",
+    "name": "Amnesia Haze (Disponible)",
+    "strain": "Hibrida",
+    "thc": "17.57",
+    "cbd": "0.01",
+    "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
+  },
+  {
+    "name": "Gelato (Disponible)",
+    "strain": "Indica",
+    "thc": "20",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/gelato-greenhouse/2292957000011732183"
+  },
+  {
+    "name": "Galaxy (Disponible)",
     "strain": "Sativa",
-    "thc": "25.5",
-    "cbd": "0.20",
-    "linktoSource": "https://www.drnugget.mx/products/san-francisco-og-greenhouse-premium/2292957000008485005"
+    "thc": "19",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/galaxy-greenhouse/2292957000011696909"
   },
   {
     "name": "Bruce Banner (Disponible)",
@@ -36,13 +51,6 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/pineapple-greenhouse-exotic/2292957000008485077"
   },
   {
-    "name": "Lemon Haze (Disponible)",
-    "strain": "Sativa",
-    "thc": "25.58",
-    "cbd": "0.29",
-    "linktoSource": "https://www.drnugget.mx/products/lemon-haze-greenhouse/2292957000009781182"
-  },
-  {
     "name": "Jack Herer (Disponible)",
     "strain": "Hibrida",
     "thc": "18.14",
@@ -55,6 +63,20 @@ var weed = [
     "thc": "17.49",
     "cbd": "0.52",
     "linktoSource": "https://www.drnugget.mx/products/mango-kush-greenhouse/2292957000008150120"
+  },
+  {
+    "name": "Lemon Haze",
+    "strain": "Sativa",
+    "thc": "25.58",
+    "cbd": "0.29",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "San Francisco OG",
+    "strain": "Sativa",
+    "thc": "25.5",
+    "cbd": "0.20",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Grandaddy Purple",
@@ -132,13 +154,6 @@ var weed = [
     "thc": "18.79",
     "cbd": "0.14",
     "linktoSource": "https://www.drnugget.mx/consumo"
-  },
-  {
-    "name": "Amnesia Haze (Disponible)",
-    "strain": "Hibrida",
-    "thc": "17.57",
-    "cbd": "0.01",
-    "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
     "name": "Animal Cookies",
