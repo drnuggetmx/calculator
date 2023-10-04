@@ -23,6 +23,20 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/galaxy-greenhouse/2292957000011696909"
   },
   {
+    "name": "Magnum (Disponible)",
+    "strain": "Sativa",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/magnum-indoor/2292957000011832773"
+  },
+  {
+    "name": "White Rhino (Disponible)",
+    "strain": "Indica",
+    "thc": "24",
+    "cbd": "0.3",
+    "linktoSource": "https://www.drnugget.mx/products/white-rhino-indoor/2292957000011832877"
+  },
+  {
     "name": "Bruce Banner (Disponible)",
     "strain": "Hibrida",
     "thc": "20.72",
@@ -1661,13 +1675,6 @@ var weed = [
     "strain": "Hibrida",
     "thc": "15.05",
     "cbd": "0.15",
-    "linktoSource": "https://www.drnugget.mx/consumo"
-  },
-  {
-    "name": "White Rhino",
-    "strain": "Hibrida",
-    "thc": "17.14",
-    "cbd": "0.13",
     "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
