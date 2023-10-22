@@ -37,25 +37,11 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/magnum-indoor/2292957000011832773"
   },
   {
-    "name": "White Rhino (Disponible)",
-    "strain": "Indica",
-    "thc": "24",
-    "cbd": "0.3",
-    "linktoSource": "https://www.drnugget.mx/products/white-rhino-indoor/2292957000011832877"
-  },
-  {
     "name": "Bruce Banner (Disponible)",
     "strain": "Hibrida",
     "thc": "20.72",
     "cbd": "0.17",
     "linktoSource": "https://www.drnugget.mx/products/bruce-banner-greenhouse/2292957000009781025"
-  },
-  {
-    "name": "Forbidden Runtz (Disponible)",
-    "strain": "Hibrida",
-    "thc": "26",
-    "cbd": "0.12",
-    "linktoSource": "https://www.drnugget.mx/products/forbbiden-runtz-indoor/2292957000010378238"
   },
   {
     "name": "Girl Scout Cookies (Disponible)",
@@ -90,6 +76,20 @@ var weed = [
     "strain": "Sativa",
     "thc": "25.58",
     "cbd": "0.29",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "White Rhino",
+    "strain": "Indica",
+    "thc": "24",
+    "cbd": "0.3",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Forbidden Runtz",
+    "strain": "Hibrida",
+    "thc": "26",
+    "cbd": "0.12",
     "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
