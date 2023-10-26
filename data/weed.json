@@ -9,6 +9,20 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
+    "name": "Venom (Disponible)",
+    "strain": "Híbrida",
+    "thc": "17",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/venom-indoor/2292957000012165566?variant=2292957000012165562"
+  },
+  {
+    "name": "Gorilla Glue 4 (Disponible)",
+    "strain": "Indica",
+    "thc": "15",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/gorilla-glue-4-outdoor-premium/2292957000012290963"
+  },
+  {
     "name": "Picafreza (Disponible)",
     "strain": "Sativa",
     "thc": "19",
@@ -44,13 +58,6 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/bruce-banner-greenhouse/2292957000009781025"
   },
   {
-    "name": "Girl Scout Cookies (Disponible)",
-    "strain": "Hibrida",
-    "thc": "21.23",
-    "cbd": "0.13",
-    "linktoSource": "https://www.drnugget.mx/products/girl-scout-cookies-greenhouse-premium/2292957000010316024"
-  },
-  {
     "name": "Pineapple (Disponible)",
     "strain": "Hibrida",
     "thc": "24.26",
@@ -58,18 +65,25 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/pineapple-greenhouse-exotic/2292957000008485077"
   },
   {
-    "name": "Jack Herer (Disponible)",
-    "strain": "Hibrida",
-    "thc": "18.14",
-    "cbd": "0.07",
-    "linktoSource": "https://www.drnugget.mx/products/jack-herer-greenhouse/2292957000008111530?variant=2292957000008466561"
-  },
-  {
     "name": "Mango Kush (Disponible)",
     "strain": "Hibrida",
     "thc": "17.49",
     "cbd": "0.52",
     "linktoSource": "https://www.drnugget.mx/products/mango-kush-greenhouse/2292957000008150120"
+  },
+  {
+    "name": "Jack Herer",
+    "strain": "Hibrida",
+    "thc": "18.14",
+    "cbd": "0.07",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Girl Scout Cookies",
+    "strain": "Hibrida",
+    "thc": "21.23",
+    "cbd": "0.13",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Lemon Haze",
