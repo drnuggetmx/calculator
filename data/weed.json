@@ -43,13 +43,7 @@ var weed = [
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/galaxy-greenhouse/2292957000011696909"
   },
-  {
-    "name": "Magnum (Disponible)",
-    "strain": "Sativa",
-    "thc": "18",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/magnum-indoor/2292957000011832773"
-  },
+  
   {
     "name": "Bruce Banner (Disponible)",
     "strain": "Hibrida",
@@ -63,6 +57,13 @@ var weed = [
     "thc": "24.26",
     "cbd": "0.24",
     "linktoSource": "https://www.drnugget.mx/products/pineapple-greenhouse-exotic/2292957000008485077"
+  },
+  {
+    "name": "Magnum",
+    "strain": "Sativa",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Mango Kush",
