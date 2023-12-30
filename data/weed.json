@@ -9,6 +9,27 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
+    "name": "WiFi (Disponible)",
+    "strain": "Indica",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/wifi-43-w-/2292957000014042282"
+  },
+  {
+    "name": "Dennis Rodman (Disponible)",
+    "strain": "Hibrida",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/dennis-rodman-indoor-premium/2292957000013882307"
+  },
+  {
+    "name": "Regia (Disponible)",
+    "strain": "Hibrida",
+    "thc": "16",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/regia-indoor-exotic-5-pre-roll-pack/2292957000013886065"
+  },
+  {
     "name": "Starburst (Disponible)",
     "strain": "Sativa",
     "thc": "18",
@@ -50,20 +71,19 @@ var weed = [
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/galaxy-greenhouse/2292957000011696909"
   },
-  
-  {
-    "name": "Bruce Banner (Disponible)",
-    "strain": "Hibrida",
-    "thc": "20.72",
-    "cbd": "0.17",
-    "linktoSource": "https://www.drnugget.mx/products/bruce-banner-greenhouse/2292957000009781025"
-  },
   {
     "name": "Pineapple (Disponible)",
     "strain": "Hibrida",
     "thc": "24.26",
     "cbd": "0.24",
     "linktoSource": "https://www.drnugget.mx/products/pineapple-greenhouse-exotic/2292957000008485077"
+  },
+  {
+    "name": "Bruce Banner",
+    "strain": "Hibrida",
+    "thc": "20.72",
+    "cbd": "0.17",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Venom",
