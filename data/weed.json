@@ -9,6 +9,20 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
+    "name": "Candy Kush (Disponible)",
+    "strain": "Hibrida",
+    "thc": "17",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/wifi-43-w-/2292957000014042282"
+  },
+  {
+    "name": "Daily Grape (Disponible)",
+    "strain": "Hibrida",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/wifi-43-w-/2292957000014042282"
+  },
+  {
     "name": "WiFi (Disponible)",
     "strain": "Indica",
     "thc": "18",
