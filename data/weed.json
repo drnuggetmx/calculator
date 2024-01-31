@@ -51,13 +51,6 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/starburst-indoor-exotic/2292957000013268854"
   },
   {
-    "name": "Purple Santa Punch (Disponible)",
-    "strain": "Sativa",
-    "thc": "12",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/purple-santa-punch-exterior-de-temporada/2292957000013327772"
-  },
-  {
     "name": "Gorilla Glue 4 (Disponible)",
     "strain": "Indica",
     "thc": "15",
@@ -84,6 +77,13 @@ var weed = [
     "thc": "19",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/galaxy-greenhouse/2292957000011696909"
+  },
+  {
+    "name": "Purple Santa Punch",
+    "strain": "Sativa",
+    "thc": "12",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Pineapple",
