@@ -30,25 +30,11 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/wifi-43-w-/2292957000014042282"
   },
   {
-    "name": "Dennis Rodman (Disponible)",
-    "strain": "Hibrida",
-    "thc": "18",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/dennis-rodman-indoor-premium/2292957000013882307"
-  },
-  {
     "name": "Regia (Disponible)",
     "strain": "Hibrida",
     "thc": "16",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/regia-indoor-exotic-5-pre-roll-pack/2292957000013886065"
-  },
-  {
-    "name": "Starburst (Disponible)",
-    "strain": "Sativa",
-    "thc": "18",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/starburst-indoor-exotic/2292957000013268854"
   },
   {
     "name": "Gorilla Glue 4 (Disponible)",
@@ -77,6 +63,20 @@ var weed = [
     "thc": "19",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/galaxy-greenhouse/2292957000011696909"
+  },
+  {
+    "name": "Starburst",
+    "strain": "Sativa",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Dennis Rodman",
+    "strain": "Hibrida",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Purple Santa Punch",
