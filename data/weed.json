@@ -9,18 +9,32 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
+    "name": "Sour Tangie (Disponible)",
+    "strain": "Sativa",
+    "thc": "20",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/sour-tangie-greenhouse-exotic/2292957000015387237"
+  },
+  {
     "name": "Candy Kush (Disponible)",
     "strain": "Hibrida",
     "thc": "17",
     "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/wifi-43-w-/2292957000014042282"
+    "linktoSource": "https://www.drnugget.mx/products/candy-kush-greenhouse/2292957000014839515"
+  },
+  {
+    "name": "Oreoz (Disponible)",
+    "strain": "Hibrida",
+    "thc": "15",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/oreoz-indoor-en-light-dep/2292957000015387101?variant=2292957000015385001"
   },
   {
     "name": "Daily Grape (Disponible)",
     "strain": "Hibrida",
     "thc": "18",
     "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/wifi-43-w-/2292957000014042282"
+    "linktoSource": "https://www.drnugget.mx/products/daily-grape-greenhouse-exotic/2292957000014839555"
   },
   {
     "name": "WiFi (Disponible)",
@@ -30,11 +44,25 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/wifi-43-w-/2292957000014042282"
   },
   {
+    "name": "WiFi Zombie (Disponible)",
+    "strain": "Hibrida",
+    "thc": "15",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/wifi-zombie-greenhouse-exotic/2292957000015387313"
+  },
+  {
     "name": "Regia (Disponible)",
     "strain": "Hibrida",
     "thc": "16",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/regia-indoor-exotic-5-pre-roll-pack/2292957000013886065"
+  },
+  {
+    "name": "Mimosa (Disponible)",
+    "strain": "Sativa",
+    "thc": "15",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/mimosa-indoor/2292957000015387167"
   },
   {
     "name": "Gorilla Glue 4 (Disponible)",
@@ -53,7 +81,7 @@ var weed = [
   {
     "name": "Gelato (Disponible)",
     "strain": "Indica",
-    "thc": "20",
+    "thc": "12",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/gelato-greenhouse/2292957000011732183"
   },
