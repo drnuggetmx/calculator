@@ -9,11 +9,11 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
-    "name": "White Truffle (Disponible)",
+    "name": "White Truffles (Disponible)",
     "strain": "Indica",
     "thc": "19",
     "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/white-truffle-indoor-exotic/2292957000015555781"
+    "linktoSource": "http://www.drnugget.mx/products/white-truffles-indoor-exotic/2292957000015555781"
   },
   {
     "name": "Sour Tangie (Disponible)",
@@ -21,6 +21,13 @@ var weed = [
     "thc": "20",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/sour-tangie-greenhouse-exotic/2292957000015387237"
+  },
+  {
+    "name": "Super Sour Diesel (Disponible)",
+    "strain": "Sativa",
+    "thc": "21",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/super-sour-diesel-greenhouse-exotic/2292957000015555911"
   },
   {
     "name": "Peanut Butter Breath (Disponible)",
