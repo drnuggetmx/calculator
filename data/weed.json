@@ -16,11 +16,25 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/sour-tangie-greenhouse-exotic/2292957000015387237"
   },
   {
+    "name": "Peanut Butter Breath (Disponible)",
+    "strain": "Indica",
+    "thc": "20",
+    "cbd": "0.1",
+    "linktoSource": "http://www.drnugget.mx/products/peanut-butter-breath-greenhouse-exotic/2292957000015555583"
+  },
+  {
     "name": "Candy Kush (Disponible)",
     "strain": "Hibrida",
     "thc": "17",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/candy-kush-greenhouse/2292957000014839515"
+  },
+  {
+    "name": "Alien Tarantula (Disponible)",
+    "strain": "Indica",
+    "thc": "21",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/alien-tarantula-indoor-exotic/2292957000015555665?variant=2292957000015502001"
   },
   {
     "name": "Oreoz (Disponible)",
