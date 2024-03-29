@@ -9,6 +9,20 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
+    "name": "White Chocolate (Disponible)",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/whit-chocolate-indoor-top-shelf/2292957000016157191"
+  },
+  {
+    "name": "Tampico (Disponible)",
+    "strain": "Hibrida",
+    "thc": "28",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/tampico-indoor-premium/2292957000016612745"
+  },
+  {
     "name": "White Truffles (Disponible)",
     "strain": "Indica",
     "thc": "19",
