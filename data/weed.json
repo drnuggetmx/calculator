@@ -30,13 +30,6 @@ var weed = [
     "linktoSource": "http://www.drnugget.mx/products/white-truffles-indoor-exotic/2292957000015555781"
   },
   {
-    "name": "Sour Tangie (Disponible)",
-    "strain": "Sativa",
-    "thc": "20",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/sour-tangie-greenhouse-exotic/2292957000015387237"
-  },
-  {
     "name": "Super Sour Diesel (Disponible)",
     "strain": "Sativa",
     "thc": "21",
@@ -147,6 +140,13 @@ var weed = [
     "thc": "19",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/galaxy-greenhouse/2292957000011696909"
+  },
+  {
+    "name": "Sour Tangie",
+    "strain": "Sativa",
+    "thc": "20",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Starburst",
