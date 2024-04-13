@@ -9,11 +9,39 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
+    "name": "Cherry Punch (Disponible)",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/cherry-punch-indoor-top-shelf/2292957000017312287"
+  },
+  {
+    "name": "Strawberry Cream (Disponible)",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/strawberry-cream-indoor-top-shelf/2292957000017312038?variant=2292957000017312034"
+  },
+  {
     "name": "White Chocolate (Disponible)",
     "strain": "Hibrida",
     "thc": "31",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/whit-chocolate-indoor-top-shelf/2292957000016157191"
+  },
+  {
+    "name": "Taro Ice Cream (Disponible)",
+    "strain": "Hibrida",
+    "thc": "33",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/taro-ice-cream-indoor-top-shelf/2292957000017389878"
+  },
+  {
+    "name": "Orange Kush (Disponible)",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/orange-kush-indoor-top-shelf/2292957000017389791?variant=2292957000017389787"
   },
   {
     "name": "Tampico (Disponible)",
