@@ -9,11 +9,39 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
+    "name": "Choco Haze (Disponible)",
+    "strain": "Sativa",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/choco-haze-greenhouse/2292957000018094226"
+  },
+  {
     "name": "Cherry Punch (Disponible)",
     "strain": "Hibrida",
     "thc": "31",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/cherry-punch-indoor-top-shelf/2292957000017312287"
+  },
+  {
+    "name": "Chocolope (Disponible)",
+    "strain": "Sativa",
+    "thc": "16",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/chocolope-exterior/2292957000018053902"
+  },
+  {
+    "name": "CBD Therapy (Disponible)",
+    "strain": "Hibrida",
+    "thc": "3",
+    "cbd": "9",
+    "linktoSource": "https://www.drnugget.mx/products/tea-pad-cbd-therapy-preroll/2292957000017847455"
+  },
+  {
+    "name": "Lemon (Disponible)",
+    "strain": "Sativa",
+    "thc": "8",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/lemon-exterior-promo-100-g/2292957000018186882"
   },
   {
     "name": "Strawberry Cream (Disponible)",
