@@ -107,13 +107,6 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/orange-kush-indoor-top-shelf/2292957000017389791?variant=2292957000017389787"
   },
   {
-    "name": "Tampico (Disponible)",
-    "strain": "Hibrida",
-    "thc": "28",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/tampico-indoor-premium/2292957000016612745"
-  },
-  {
     "name": "White Truffles (Disponible)",
     "strain": "Indica",
     "thc": "19",
@@ -211,6 +204,13 @@ var weed = [
     "thc": "19",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/galaxy-greenhouse/2292957000011696909"
+  },
+  {
+    "name": "Tampico",
+    "strain": "Hibrida",
+    "thc": "28",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Gorilla Glue 5",
