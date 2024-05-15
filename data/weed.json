@@ -23,6 +23,41 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/cherry-punch-indoor-top-shelf/2292957000017312287"
   },
   {
+    "name": "Kush Mint (Disponible)",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/kush-mint-indoor-top-shelf-3-5-gr/2292957000018621478"
+  },
+  {
+    "name": "Caribbean Sunset (Disponible)",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/caribbean-sunset-indoor-top-shelf-3-5-gr/2292957000018621394"
+  },
+  {
+    "name": "Lemon Jolly Rancher (Disponible)",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/lemon-jolly-rancher-indoor-top-shelf-3-5-gr/2292957000018621549"
+  },
+  {
+    "name": "Creamsicle (Disponible)",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/creamsicle-indoor-top-shelf-3-5-gr/2292957000018621433"
+  },
+  {
+    "name": "Platinum Pavé (Disponible)",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/platinum-pav%C3%A9-indoor-top-shelf-3-5-gr/2292957000018621594"
+  },
+  {
     "name": "Chocolope (Disponible)",
     "strain": "Sativa",
     "thc": "16",
@@ -162,20 +197,7 @@ var weed = [
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/gorilla-glue-4-outdoor-premium/2292957000012290963"
   },
-  {
-    "name": "Gorilla Glue 5 (Disponible)",
-    "strain": "Hibrida",
-    "thc": "21",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/gorila-glue-5-indoor/2292957000015556017"
-  },
-  {
-    "name": "Picafreza (Disponible)",
-    "strain": "Sativa",
-    "thc": "19",
-    "cbd": "0.1",
-    "linktoSource": "http://www.drnugget.mx/products/picafrezas-indoor-premium/2292957000012165475"
-  },
+  
   {
     "name": "Gelato (Disponible)",
     "strain": "Indica",
@@ -189,6 +211,20 @@ var weed = [
     "thc": "19",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/galaxy-greenhouse/2292957000011696909"
+  },
+  {
+    "name": "Gorilla Glue 5",
+    "strain": "Hibrida",
+    "thc": "21",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Picafreza",
+    "strain": "Sativa",
+    "thc": "19",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Orange Limited",
