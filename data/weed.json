@@ -9,6 +9,20 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
+    "name": "Strawnana (Disponible)",
+    "strain": "Indica",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/strawnana-exterior/2292957000019286308?variant=2292957000019284499"
+  },
+  {
+    "name": "Italia Ice (Disponible)",
+    "strain": "Hibrido",
+    "thc": "34",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/italia-ice-indoor-premium/2292957000019286201?variant=2292957000019284401"
+  },
+  {
     "name": "Gary Payton (Disponible)",
     "strain": "Hibrido Sativa",
     "thc": "29",
