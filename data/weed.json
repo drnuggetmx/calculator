@@ -58,13 +58,6 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/kush-mint-indoor-top-shelf-3-5-gr/2292957000018621478"
   },
   {
-    "name": "Caribbean Sunset (Disponible)",
-    "strain": "Hibrida",
-    "thc": "31",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/caribbean-sunset-indoor-top-shelf-3-5-gr/2292957000018621394"
-  },
-  {
     "name": "Lemon Jolly Rancher (Disponible)",
     "strain": "Hibrida",
     "thc": "31",
@@ -189,6 +182,13 @@ var weed = [
     "thc": "19",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/galaxy-greenhouse/2292957000011696909"
+  },
+  {
+    "name": "Caribbean Sunset",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Platinum Pavé",
