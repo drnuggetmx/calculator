@@ -3,10 +3,43 @@ var weed = [
   
   {
     "name": "Amnesia Haze (Disponible)",
-    "strain": "Hibrida",
+    "strain": "Hibrido",
     "thc": "17.57",
     "cbd": "0.01",
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
+  },
+  {
+    "name": "GMO Runtz (Disponible)",
+    "strain": "Sativa",
+    "thc": "32",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/gmo-runtz-indoor-hidrop%C3%B3nica/2292957000020321130?variant=2292957000020243287"
+  },
+  {
+    "name": "Grimace (Disponible)",
+    "strain": "Hibrido",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/grimace-v2-indoor-hidrop%C3%B3nica/2292957000020321226?variant=2292957000020243379"
+  },
+  {
+    "name": "Sub Zero (Disponible)",
+    "strain": "Hibrido",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/sub-zero-indoor-premium/2292957000020321336?variant=2292957000020321332"
+  },{
+    "name": "Blueberry Muffin (Disponible)",
+    "strain": "Hibrido",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/strawnana-exterior/2292957000019286308?variant=2292957000019284499"
+  },{
+    "name": "Blueberry Gang (Disponible)",
+    "strain": "Indica",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/blueberry-gang-indoor-top-shelf/2292957000020291954"
   },
   {
     "name": "Strawnana (Disponible)",
@@ -44,20 +77,6 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/choco-haze-greenhouse/2292957000018094226"
   },
   {
-    "name": "Cherry Punch (Disponible)",
-    "strain": "Hibrida",
-    "thc": "31",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/cherry-punch-indoor-top-shelf/2292957000017312287"
-  },
-  {
-    "name": "Kush Mint (Disponible)",
-    "strain": "Hibrida",
-    "thc": "31",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/kush-mint-indoor-top-shelf-3-5-gr/2292957000018621478"
-  },
-  {
     "name": "Lemon Jolly Rancher (Disponible)",
     "strain": "Hibrida",
     "thc": "31",
@@ -91,13 +110,6 @@ var weed = [
     "thc": "8",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/lemon-exterior-promo-100-g/2292957000018186882"
-  },
-  {
-    "name": "Strawberry Cream (Disponible)",
-    "strain": "Hibrida",
-    "thc": "31",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/strawberry-cream-indoor-top-shelf/2292957000017312038?variant=2292957000017312034"
   },
   {
     "name": "Orange Kush (Disponible)",
@@ -163,13 +175,6 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/regia-indoor-exotic-5-pre-roll-pack/2292957000013886065"
   },
   {
-    "name": "Mimosa (Disponible)",
-    "strain": "Sativa",
-    "thc": "15",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/mimosa-indoor/2292957000015387167"
-  },
-  {
     "name": "Gelato (Disponible)",
     "strain": "Indica",
     "thc": "12",
@@ -182,6 +187,34 @@ var weed = [
     "thc": "19",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/galaxy-greenhouse/2292957000011696909"
+  },
+  {
+    "name": "Cherry Punch",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Kush Mint",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Strawberry Cream",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Mimosa",
+    "strain": "Sativa",
+    "thc": "15",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Caribbean Sunset",
