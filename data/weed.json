@@ -9,9 +9,16 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
+    "name": "Scorpio (Disponible)",
+    "strain": "Indica",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/scorpio-indoor-premium/2292957000020677768"
+  },
+  {
     "name": "GMO Runtz (Disponible)",
     "strain": "Sativa",
-    "thc": "32",
+    "thc": "26",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/gmo-runtz-indoor-hidrop%C3%B3nica/2292957000020321130?variant=2292957000020243287"
   },
@@ -54,13 +61,6 @@ var weed = [
     "thc": "34",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/italia-ice-indoor-premium/2292957000019286201?variant=2292957000019284401"
-  },
-  {
-    "name": "Gary Payton (Disponible)",
-    "strain": "Hibrido Sativa",
-    "thc": "29",
-    "cbd": "0.1",
-    "linktoSource": "http://www.drnugget.mx/products/gary-payton-indoor-premium/2292957000018862435"
   },
   {
     "name": "Gorilla Glue 4 (Disponible)",
@@ -168,13 +168,6 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/wifi-zombie-greenhouse-exotic/2292957000015387313"
   },
   {
-    "name": "Regia (Disponible)",
-    "strain": "Hibrida",
-    "thc": "16",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/regia-indoor-exotic-5-pre-roll-pack/2292957000013886065"
-  },
-  {
     "name": "Gelato (Disponible)",
     "strain": "Indica",
     "thc": "12",
@@ -182,11 +175,25 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/gelato-greenhouse/2292957000011732183"
   },
   {
-    "name": "Galaxy (Disponible)",
+    "name": "Gary Payton",
+    "strain": "Hibrido Sativa",
+    "thc": "29",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Regia",
+    "strain": "Hibrida",
+    "thc": "16",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Galaxy",
     "strain": "Sativa",
     "thc": "19",
     "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/galaxy-greenhouse/2292957000011696909"
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Cherry Punch",
