@@ -8,6 +8,28 @@ var weed = [
     "cbd": "0.01",
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
+
+  {
+    "name": "Acapulco Gold (Disponible)",
+    "strain": "Hibrido",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/acapulco-gold-indoor-hidrop%C3%B3nica/2292957000021127891"
+  },
+  {
+    "name": "Runtz Muffin (Disponible)",
+    "strain": "Indica",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/runtz-muffin-indoor-hidrop%C3%B3nica/2292957000021127053"
+  },
+  {
+    "name": "Mandarin Sunset (Disponible)",
+    "strain": "Sativa",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/mandarin-sunset-indoor-hidrop%C3%B3nica/2292957000021127982"
+  },
   {
     "name": "Scorpio (Disponible)",
     "strain": "Indica",
@@ -147,13 +169,6 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/oreoz-indoor-en-light-dep/2292957000015387101?variant=2292957000015385001"
   },
   {
-    "name": "Daily Grape (Disponible)",
-    "strain": "Hibrida",
-    "thc": "18",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/daily-grape-greenhouse-exotic/2292957000014839555"
-  },
-  {
     "name": "WiFi (Disponible)",
     "strain": "Indica",
     "thc": "18",
@@ -173,6 +188,13 @@ var weed = [
     "thc": "12",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/gelato-greenhouse/2292957000011732183"
+  },
+  {
+    "name": "Daily Grape",
+    "strain": "Hibrida",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Gary Payton",
