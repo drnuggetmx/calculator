@@ -8,7 +8,19 @@ var weed = [
     "cbd": "0.01",
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
-
+  {
+    "name": "Horchata (Disponible)",
+    "strain": "Indica",
+    "thc": "17.57",
+    "cbd": "0.01",
+    "linktoSource": "https://www.drnugget.com/products/horchata-greenhouse-exotic/2292957000022472043"
+  }, {
+    "name": "Sour Apple (Disponible)",
+    "strain": "Indica",
+    "thc": "28",
+    "cbd": "0.01",
+    "linktoSource": "https://www.drnugget.com/products/sour-apple-indoor-living-soil/2292957000022612263"
+  },
   {
     "name": "Acapulco Gold (Disponible)",
     "strain": "Hibrido",
@@ -85,13 +97,6 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/italia-ice-indoor-premium/2292957000019286201?variant=2292957000019284401"
   },
   {
-    "name": "Gorilla Glue 4 (Disponible)",
-    "strain": "Indica",
-    "thc": "15",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/gorilla-glue-4-outdoor-premium/2292957000012290963"
-  },
-  {
     "name": "Choco Haze (Disponible)",
     "strain": "Sativa",
     "thc": "18",
@@ -141,20 +146,6 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/orange-kush-indoor-top-shelf/2292957000017389791?variant=2292957000017389787"
   },
   {
-    "name": "Super Sour Diesel (Disponible)",
-    "strain": "Sativa",
-    "thc": "21",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/super-sour-diesel-greenhouse-exotic/2292957000015555911"
-  },
-  {
-    "name": "Peanut Butter Breath (Disponible)",
-    "strain": "Indica",
-    "thc": "20",
-    "cbd": "0.1",
-    "linktoSource": "http://www.drnugget.mx/products/peanut-butter-breath-greenhouse-exotic/2292957000015555583"
-  },
-  {
     "name": "Candy Kush (Disponible)",
     "strain": "Hibrida",
     "thc": "17",
@@ -169,18 +160,41 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/wifi-43-w-/2292957000014042282"
   },
   {
-    "name": "WiFi Zombie (Disponible)",
-    "strain": "Hibrida",
-    "thc": "15",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/wifi-zombie-greenhouse-exotic/2292957000015387313"
-  },
-  {
     "name": "Gelato (Disponible)",
     "strain": "Indica",
     "thc": "12",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/gelato-greenhouse/2292957000011732183"
+  },
+  {
+    "name": "Gorilla Glue 4",
+    "strain": "Indica",
+    "thc": "15",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+
+  {
+    "name": "Super Sour Diesel",
+    "strain": "Sativa",
+    "thc": "21",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Peanut Butter Breath",
+    "strain": "Indica",
+    "thc": "20",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+
+  {
+    "name": "WiFi Zombie",
+    "strain": "Hibrida",
+    "thc": "15",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Daily Grape",
