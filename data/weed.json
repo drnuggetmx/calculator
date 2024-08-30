@@ -22,6 +22,20 @@ var weed = [
     "linktoSource": "https://www.drnugget.com/products/sour-apple-indoor-living-soil/2292957000022612263"
   },
   {
+    "name": "Animal (Disponible)",
+    "strain": "Hibrido",
+    "thc": "27",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.com/products/animal-greenhouse-exotic-premium/2292957000023740093"
+  },
+  {
+    "name": "Northern Lights (Disponible)",
+    "strain": "Indica",
+    "thc": "16",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.com/products/animal-greenhouse-exotic-premium/2292957000023740093"
+  },
+  {
     "name": "Acapulco Gold (Disponible)",
     "strain": "Hibrido",
     "thc": "26",
@@ -68,12 +82,6 @@ var weed = [
     "thc": "18",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/strawnana-exterior/2292957000019286308?variant=2292957000019284499"
-  },{
-    "name": "Blueberry Gang (Disponible)",
-    "strain": "Indica",
-    "thc": "31",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/blueberry-gang-indoor-top-shelf/2292957000020291954"
   },
   {
     "name": "Strawnana (Disponible)",
@@ -95,13 +103,6 @@ var weed = [
     "thc": "18",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/choco-haze-greenhouse/2292957000018094226"
-  },
-  {
-    "name": "Lemon Jolly Rancher (Disponible)",
-    "strain": "Hibrida",
-    "thc": "31",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/lemon-jolly-rancher-indoor-top-shelf-3-5-gr/2292957000018621549"
   },
   {
     "name": "Creamsicle (Disponible)",
@@ -158,6 +159,20 @@ var weed = [
     "thc": "12",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/gelato-greenhouse/2292957000011732183"
+  },
+  {
+    "name": "Blueberry Gang",
+    "strain": "Indica",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Lemon Jolly Rancher",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Gorilla Glue 4",
