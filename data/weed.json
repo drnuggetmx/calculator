@@ -9,6 +9,48 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
+    "name": "Pineapple Express (Disponible)",
+    "strain": "Hibrida",
+    "thc": "16",
+    "cbd": "0.18",
+    "linktoSource": "https://www.drnugget.com/products/pineapple-express/2292957000023799260"
+  },
+  {
+    "name": "Super Lemon Haze (Disponible)",
+    "strain": "Sativa",
+    "thc": "26",
+    "cbd": "0.29",
+    "linktoSource": "https://www.drnugget.com/products/super-lemon-haze-indoor-edicion-clasicas/2292957000023837013"
+  },
+  {
+    "name": "Blue Dream (Disponible)",
+    "strain": "Hibrida",
+    "thc": "10.76",
+    "cbd": "0.01",
+    "linktoSource": "https://www.drnugget.com/products/blue-dream-indoor-classic-limited/2292957000023799552?variant=2292957000023799554"
+  },
+  {
+    "name": "Junk Sack (Disponible)",
+    "strain": "Hibrido",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.com/products/junk-sack-indoor-hidrop%C3%B3nica/2292957000023862276"
+  },
+  {
+    "name": "Venom OG (Disponible)",
+    "strain": "Indica",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.com/products/venom-og-indoor-hidrop%C3%B3nica/2292957000023856009"
+  },
+  {
+    "name": "Dos Si Dos (Disponible)",
+    "strain": "Indica",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.com/products/dos-si-dos-indoor-hidrop%C3%B3nica/2292957000023862098"
+  },
+  {
     "name": "Horchata (Disponible)",
     "strain": "Indica",
     "thc": "17.57",
@@ -34,6 +76,13 @@ var weed = [
     "thc": "16",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.com/products/animal-greenhouse-exotic-premium/2292957000023740093"
+  },
+  {
+    "name": "Tampico (Disponible)",
+    "strain": "Hibrido",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.com/products/tampico-greenhouse-exotic/2292957000023799406"
   },
   {
     "name": "Acapulco Gold (Disponible)",
@@ -643,13 +692,6 @@ var weed = [
     "strain": "Hibrida",
     "thc": "11.56",
     "cbd": "0.30",
-    "linktoSource": "https://www.drnugget.mx/consumo"
-  },
-  {
-    "name": "Blue Dream",
-    "strain": "Hibrida",
-    "thc": "10.76",
-    "cbd": "0.01",
     "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
@@ -1601,13 +1643,6 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
-    "name": "Pineapple Express",
-    "strain": "Hibrida",
-    "thc": "21.36",
-    "cbd": "0.18",
-    "linktoSource": "https://www.drnugget.mx/consumo"
-  },
-  {
     "name": "Pineapple Kush",
     "strain": "Hibrida",
     "thc": "18.99",
@@ -1899,13 +1934,6 @@ var weed = [
     "strain": "Hibrida",
     "thc": "9.32",
     "cbd": "0.01",
-    "linktoSource": "https://www.drnugget.mx/consumo"
-  },
-  {
-    "name": "Super Lemon Haze",
-    "strain": "Hibrida",
-    "thc": "19.08",
-    "cbd": "0.29",
     "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
