@@ -2,6 +2,20 @@
 var weed = [
   
   {
+    "name": "Acapulco Gold (Disponible)",
+    "strain": "Hibrido",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/acapulco-gold-indoor-hidrop%C3%B3nica/2292957000021127891"
+  },
+  {
+    "name": "Animal Mints Cake (Disponible)",
+    "strain": "Hibrido",
+    "thc": "30",
+    "cbd": "0.01",
+    "linktoSource": "https://www.drnugget.com/products/a0f9c517d8/2292957000027141188"
+  },
+  {
     "name": "Amnesia Haze (Disponible)",
     "strain": "Hibrido",
     "thc": "17.57",
@@ -9,25 +23,18 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/amnesia-haze-exterior/2292957000008019005"
   },
   {
-    "name": "Pineapple Express (Disponible)",
+    "name": "Baby Buds T2 (Disponible)",
     "strain": "Hibrida",
-    "thc": "16",
+    "thc": "28",
     "cbd": "0.18",
-    "linktoSource": "https://www.drnugget.com/products/pineapple-express/2292957000023799260"
+    "linktoSource": "https://www.drnugget.com/products/baby-buds-indoor-top-shelf-temporada-2/2292957000016853902"
   },
   {
-    "name": "Grimace (Disponible)",
-    "strain": "Hibrido",
-    "thc": "31",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.com/products/grimace-v2-indoor-hidrop%C3%B3nica/2292957000020321226"
-  },
-  {
-    "name": "Super Lemon Haze (Disponible)",
-    "strain": "Sativa",
-    "thc": "26",
-    "cbd": "0.29",
-    "linktoSource": "https://www.drnugget.com/products/super-lemon-haze-indoor-edicion-clasicas/2292957000023837013"
+    "name": "Big Drip (Disponible)",
+    "strain": "Hibrida",
+    "thc": "30",
+    "cbd": "0.18",
+    "linktoSource": "https://www.drnugget.com/products/e29db9aa2b/2292957000027141445"
   },
   {
     "name": "Blue Dream (Disponible)",
@@ -37,102 +44,6 @@ var weed = [
     "linktoSource": "https://www.drnugget.com/products/blue-dream-indoor-classic-limited/2292957000023799552?variant=2292957000023799554"
   },
   {
-    "name": "Junk Sack (Disponible)",
-    "strain": "Hibrido",
-    "thc": "26",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.com/products/junk-sack-indoor-hidrop%C3%B3nica/2292957000023862276"
-  },
-  {
-    "name": "Venom OG (Disponible)",
-    "strain": "Indica",
-    "thc": "26",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.com/products/venom-og-indoor-hidrop%C3%B3nica/2292957000023856009"
-  },
-  {
-    "name": "Dos Si Dos (Disponible)",
-    "strain": "Indica",
-    "thc": "26",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.com/products/dos-si-dos-indoor-hidrop%C3%B3nica/2292957000023862098"
-  },
-  {
-    "name": "Horchata (Disponible)",
-    "strain": "Indica",
-    "thc": "17.57",
-    "cbd": "0.01",
-    "linktoSource": "https://www.drnugget.com/products/horchata-greenhouse-exotic/2292957000022472043"
-  }, {
-    "name": "Sour Apple (Disponible)",
-    "strain": "Indica",
-    "thc": "28",
-    "cbd": "0.01",
-    "linktoSource": "https://www.drnugget.com/products/sour-apple-indoor-living-soil/2292957000022612263"
-  },
-  {
-    "name": "Animal (Disponible)",
-    "strain": "Hibrido",
-    "thc": "27",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.com/products/animal-greenhouse-exotic-premium/2292957000023740093"
-  },
-  {
-    "name": "Northern Lights (Disponible)",
-    "strain": "Indica",
-    "thc": "16",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.com/products/animal-greenhouse-exotic-premium/2292957000023740093"
-  },
-  {
-    "name": "Tampico (Disponible)",
-    "strain": "Hibrido",
-    "thc": "18",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.com/products/tampico-greenhouse-exotic/2292957000023799406"
-  },
-  {
-    "name": "Acapulco Gold (Disponible)",
-    "strain": "Hibrido",
-    "thc": "26",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/acapulco-gold-indoor-hidrop%C3%B3nica/2292957000021127891"
-  },
-  {
-    "name": "Runtz Muffin (Disponible)",
-    "strain": "Indica",
-    "thc": "26",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/runtz-muffin-indoor-hidrop%C3%B3nica/2292957000021127053"
-  },
-  {
-    "name": "Mandarin Sunset (Disponible)",
-    "strain": "Sativa",
-    "thc": "26",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/mandarin-sunset-indoor-hidrop%C3%B3nica/2292957000021127982"
-  },
-  {
-    "name": "Scorpio (Disponible)",
-    "strain": "Indica",
-    "thc": "31",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/scorpio-indoor-premium/2292957000020677768"
-  },
-  {
-    "name": "GMO Runtz (Disponible)",
-    "strain": "Sativa",
-    "thc": "26",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/gmo-runtz-indoor-hidrop%C3%B3nica/2292957000020321130?variant=2292957000020243287"
-  },
-  {
-    "name": "Sub Zero (Disponible)",
-    "strain": "Hibrido",
-    "thc": "31",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/sub-zero-indoor-premium/2292957000020321336?variant=2292957000020321332"
-  },{
     "name": "Blueberry Muffin (Disponible)",
     "strain": "Hibrido",
     "thc": "18",
@@ -140,60 +51,11 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/strawnana-exterior/2292957000019286308?variant=2292957000019284499"
   },
   {
-    "name": "Strawnana (Disponible)",
-    "strain": "Indica",
-    "thc": "18",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/strawnana-exterior/2292957000019286308?variant=2292957000019284499"
-  },
-  {
-    "name": "Italia Ice (Disponible)",
-    "strain": "Hibrido",
-    "thc": "34",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/italia-ice-indoor-premium/2292957000019286201?variant=2292957000019284401"
-  },
-  {
-    "name": "Choco Haze (Disponible)",
-    "strain": "Sativa",
-    "thc": "18",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/choco-haze-greenhouse/2292957000018094226"
-  },
-  {
-    "name": "Creamsicle (Disponible)",
+    "name": "Bonkers x Gary Poppins (Disponible)",
     "strain": "Hibrida",
-    "thc": "31",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/creamsicle-indoor-top-shelf-3-5-gr/2292957000018621433"
-  },
-  {
-    "name": "Chocolope (Disponible)",
-    "strain": "Sativa",
-    "thc": "16",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/chocolope-exterior/2292957000018053902"
-  },
-  {
-    "name": "CBD Therapy (Disponible)",
-    "strain": "Hibrida",
-    "thc": "3",
-    "cbd": "9",
-    "linktoSource": "https://www.drnugget.mx/products/tea-pad-cbd-therapy-preroll/2292957000017847455"
-  },
-  {
-    "name": "Lemon (Disponible)",
-    "strain": "Sativa",
-    "thc": "8",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/lemon-exterior-promo-100-g/2292957000018186882"
-  },
-  {
-    "name": "Orange Kush (Disponible)",
-    "strain": "Hibrida",
-    "thc": "31",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/orange-kush-indoor-top-shelf/2292957000017389791?variant=2292957000017389787"
+    "thc": "30",
+    "cbd": "0.18",
+    "linktoSource": "https://www.drnugget.com/products/j94f405700/2292957000027141329"
   },
   {
     "name": "Candy Kush (Disponible)",
@@ -203,11 +65,25 @@ var weed = [
     "linktoSource": "https://www.drnugget.mx/products/candy-kush-greenhouse/2292957000014839515"
   },
   {
-    "name": "WiFi (Disponible)",
-    "strain": "Indica",
-    "thc": "18",
+    "name": "CBD Therapy (Disponible)",
+    "strain": "Hibrida",
+    "thc": "3",
+    "cbd": "9",
+    "linktoSource": "https://www.drnugget.mx/products/tea-pad-cbd-therapy-preroll/2292957000017847455"
+  },
+  {
+    "name": "Chocolope (Disponible)",
+    "strain": "Sativa",
+    "thc": "16",
     "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/wifi-43-w-/2292957000014042282"
+    "linktoSource": "https://www.drnugget.mx/products/chocolope-exterior/2292957000018053902"
+  },
+  {
+    "name": "Dos Si Dos (Disponible)",
+    "strain": "Indica",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.com/products/dos-si-dos-indoor-hidrop%C3%B3nica/2292957000023862098"
   },
   {
     "name": "Gelato (Disponible)",
@@ -215,6 +91,175 @@ var weed = [
     "thc": "12",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.mx/products/gelato-greenhouse/2292957000011732183"
+  },
+  {
+    "name": "GMO Runtz (Disponible)",
+    "strain": "Sativa",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/gmo-runtz-indoor-hidrop%C3%B3nica/2292957000020321130?variant=2292957000020243287"
+  },
+  {
+    "name": "Grimace (Disponible)",
+    "strain": "Hibrido",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.com/products/grimace-v2-indoor-hidrop%C3%B3nica/2292957000020321226"
+  },
+  {
+    "name": "Horchata (Disponible)",
+    "strain": "Indica",
+    "thc": "17.57",
+    "cbd": "0.01",
+    "linktoSource": "https://www.drnugget.com/products/horchata-greenhouse-exotic/2292957000022472043"
+  },
+  {
+    "name": "Italia Ice (Disponible)",
+    "strain": "Hibrido",
+    "thc": "34",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/italia-ice-indoor-premium/2292957000019286201?variant=2292957000019284401"
+  },
+  {
+    "name": "Junk Sack (Disponible)",
+    "strain": "Hibrido",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.com/products/junk-sack-indoor-hidrop%C3%B3nica/2292957000023862276"
+  },
+
+  {
+    "name": "Lemon (Disponible)",
+    "strain": "Sativa",
+    "thc": "8",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/lemon-exterior-promo-100-g/2292957000018186882"
+  },
+  {
+    "name": "Mandarin Sunset (Disponible)",
+    "strain": "Sativa",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/mandarin-sunset-indoor-hidrop%C3%B3nica/2292957000021127982"
+  },
+  {
+    "name": "Members OG (Disponible)",
+    "strain": "Hibrido",
+    "thc": "30",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.com/products/h72638f333/2292957000027141723"
+  },
+  {
+    "name": "Northern Lights (Disponible)",
+    "strain": "Indica",
+    "thc": "16",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.com/products/animal-greenhouse-exotic-premium/2292957000023740093"
+  },
+  {
+    "name": "Pineapple Express (Disponible)",
+    "strain": "Hibrida",
+    "thc": "16",
+    "cbd": "0.18",
+    "linktoSource": "https://www.drnugget.com/products/pineapple-express/2292957000023799260"
+  },
+  {
+    "name": "Runtz Muffin (Disponible)",
+    "strain": "Indica",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/runtz-muffin-indoor-hidrop%C3%B3nica/2292957000021127053"
+  },
+  {
+    "name": "Runtz Muffin (Disponible)",
+    "strain": "Indica",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/runtz-muffin-indoor-hidrop%C3%B3nica/2292957000021127053"
+  },
+  {
+    "name": "Scorpio (Disponible)",
+    "strain": "Indica",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/scorpio-indoor-premium/2292957000020677768"
+  },
+  {
+    "name": "Sour Apple (Disponible)",
+    "strain": "Indica",
+    "thc": "28",
+    "cbd": "0.01",
+    "linktoSource": "https://www.drnugget.com/products/sour-apple-indoor-living-soil/2292957000022612263"
+  },
+  {
+    "name": "Strawnana (Disponible)",
+    "strain": "Indica",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/strawnana-exterior/2292957000019286308?variant=2292957000019284499"
+  },
+  {
+    "name": "Super Lemon Haze (Disponible)",
+    "strain": "Sativa",
+    "thc": "26",
+    "cbd": "0.29",
+    "linktoSource": "https://www.drnugget.com/products/super-lemon-haze-indoor-edicion-clasicas/2292957000023837013"
+  },
+  {
+    "name": "Venom OG (Disponible)",
+    "strain": "Indica",
+    "thc": "26",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.com/products/venom-og-indoor-hidrop%C3%B3nica/2292957000023856009"
+  },
+  {
+    "name": "WiFi (Disponible)",
+    "strain": "Indica",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/products/wifi-43-w-/2292957000014042282"
+  },
+  {
+    "name": "Choco Haze",
+    "strain": "Sativa",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Creamsicle",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Orange Kush",
+    "strain": "Hibrida",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Sub Zero",
+    "strain": "Hibrido",
+    "thc": "31",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Animal",
+    "strain": "Hibrido",
+    "thc": "27",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
+  },
+  {
+    "name": "Tampico",
+    "strain": "Hibrido",
+    "thc": "18",
+    "cbd": "0.1",
+    "linktoSource": "https://www.drnugget.mx/consumo"
   },
   {
     "name": "Blueberry Gang",
