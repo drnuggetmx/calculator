@@ -127,7 +127,6 @@ var weed = [
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.com/products/junk-sack-indoor-hidrop%C3%B3nica/2292957000023862276"
   },
-
   {
     "name": "Lemon (Disponible)",
     "strain": "Sativa",
@@ -162,13 +161,6 @@ var weed = [
     "thc": "16",
     "cbd": "0.18",
     "linktoSource": "https://www.drnugget.com/products/pineapple-express/2292957000023799260"
-  },
-  {
-    "name": "Runtz Muffin (Disponible)",
-    "strain": "Indica",
-    "thc": "26",
-    "cbd": "0.1",
-    "linktoSource": "https://www.drnugget.mx/products/runtz-muffin-indoor-hidrop%C3%B3nica/2292957000021127053"
   },
   {
     "name": "Runtz Muffin (Disponible)",
