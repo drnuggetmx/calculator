@@ -37,6 +37,13 @@ var weed = [
     "linktoSource": "https://www.drnugget.com/products/e29db9aa2b/2292957000027141445"
   },
   {
+    "name": "Black Velvet (Disponible)",
+    "strain": "Hibrida",
+    "thc": "30",
+    "cbd": "0.01",
+    "linktoSource": "http://www.drnugget.com/products/d304b565ac/2292957000028183001"
+  },
+  {
     "name": "Blue Dream (Disponible)",
     "strain": "Hibrida",
     "thc": "10.76",
@@ -84,6 +91,13 @@ var weed = [
     "thc": "26",
     "cbd": "0.1",
     "linktoSource": "https://www.drnugget.com/products/dos-si-dos-indoor-hidrop%C3%B3nica/2292957000023862098"
+  },
+  {
+    "name": "Gary Payton X Satan (Disponible)",
+    "strain": "Hibrido",
+    "thc": "30",
+    "cbd": "0.1",
+    "linktoSource": "http://www.drnugget.com/products/a00fed533b/2292957000028183193"
   },
   {
     "name": "Gelato (Disponible)",
